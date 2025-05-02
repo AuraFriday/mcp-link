@@ -243,7 +243,7 @@ Here’s a refined **"Trust + Maintainer" block** to include near the end of you
 
 <table>
 <tr>
-<td><img src="assets/cnd-headshot.jpg" width="120" alt="Christopher Nathan Drake" style="border-radius:8px;"></td>
+<td><img src="assets/christopher-nathan-drake-photo.jpg" width="120" alt="Christopher Nathan Drake" style="border-radius:8px;"></td>
 <td>
 
 ## 🧾 Project Maintainer
