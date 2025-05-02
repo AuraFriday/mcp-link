@@ -1,0 +1,8 @@
+# Don't count these folders as "code"
+server/* linguist-vendored
+extension/* linguist-vendored
+store/* linguist-vendored
+
+# Make LICENSE files language-agnostic
+LICENSE* linguist-documentation
+

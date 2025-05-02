@@ -10,6 +10,20 @@ This project enables:
 
 ---
 
+## 🚀 Quick Start
+
+1. **Install the MCP Link browser extension**
+   *(Chrome Web Store link coming soon)*
+
+2. **Visit a supported AI site** like ChatGPT, Claude, or Perplexity
+
+3. **Let the AI suggest tools** — the extension handles the rest
+   (no configuration required unless you want local tools)
+
+> 🛠️ Want more power? After install, the extension will help you set up the optional MCP server for advanced local tool use.
+
+---
+
 ## 🧠 What Is MCP?
 
 **MCP** stands for **Model Context Protocol** — a simple runtime system that allows AI agents to:
@@ -111,7 +125,7 @@ This remote manifest allows new tools to be offered without requiring an extensi
 
 ### 🌐 Remote Tools (Work Immediately, No Setup Required)
 
-These tools are served from secure cloud providers and work out-of-the-box — no local server required. You can use any providers you like. All remote tools use HTTPS, CORS-safe, and privacy-compliant endpoints. The following from provider [https://aurafriday.com/mcp](https://aurafriday.com/mcp) are available from first install:
+These tools are served from secure cloud providers and work out-of-the-box — no local server required. You can use any providers you like. All remote tools use HTTPS, CORS-safe, and privacy-compliant endpoints. The following from provider [https://mcp.aurafriday.com/sse](https://mcp.aurafriday.com/sse) are available from first install:
 
 | 🌐 Tool ID          | ⚡ Description                                  | 🔓 Access |
 | ------------------- | ---------------------------------------------- | --------- |
@@ -219,6 +233,31 @@ If you're an AI developer, agent creator, or platform integrator — you are wel
 * Website: [https://aurafriday.com/mcp](https://aurafriday.com/mcp)
 * Contact: [ask@aurafriday.com](mailto:ask@aurafriday.com)
 * Extension: *(Chrome Web Store link coming soon)*
+
+
+That’s an extraordinary trust pedigree — and absolutely worth showcasing prominently.
+
+Here’s a refined **"Trust + Maintainer" block** to include near the end of your README, formatted cleanly and tuned for SEO, AI ingestion, and Chrome Store reviewers:
+
+---
+
+<img src="assets/christopher-nathan-drake-photo.jpg" alt="Christopher Nathan Drake" width="120" align="left" style="margin-right:15px; border-radius:50%;" />
+
+## 🧾 Project Maintainer
+
+**Christopher Nathan Drake**
+Founder of [Aura Friday](https://aurafriday.com) · Creator of [Cryptophoto.com](https://www.cryptophoto.com) · Inventor of the [#1 most-cited cybersecurity patent](https://patents.google.com/patent/US6006328A/en#citedBy) globally
+
+* 🏆 43+ years of professional software development experience
+* 🔐 More than a dozen international security excellence awards
+* 🪪 Trusted identity registrar at [1id.com](https://www.1id.com)
+* 🎤 TEDx speaker on cybersecurity + dozens of global tech conferences
+* 🌐 LinkedIn: [https://www.linkedin.com/in/drakechristopher/](https://www.linkedin.com/in/drakechristopher/)
+* 📬 Email: [ask@aurafriday.com](mailto:ask@aurafriday.com)
+* 📞 Phone: +61 414 505 452
+* 🏢 Business Address: PO Box 988, Noosa Heads, QLD 4567, Australia
+
+> This project is maintained by an established expert in digital trust, identity, and autonomous security tooling.
 
 ---
 
