@@ -234,11 +234,6 @@ If you're an AI developer, agent creator, or platform integrator — you are wel
 * Contact: [ask@aurafriday.com](mailto:ask@aurafriday.com)
 * Extension: *(Chrome Web Store link coming soon)*
 
-
-That’s an extraordinary trust pedigree — and absolutely worth showcasing prominently.
-
-Here’s a refined **"Trust + Maintainer" block** to include near the end of your README, formatted cleanly and tuned for SEO, AI ingestion, and Chrome Store reviewers:
-
 ---
 
 <table>
