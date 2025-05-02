@@ -241,7 +241,10 @@ Here’s a refined **"Trust + Maintainer" block** to include near the end of you
 
 ---
 
-<img src="assets/christopher-nathan-drake-photo.jpg" alt="Christopher Nathan Drake" width="120" align="left" style="margin-right:15px; border-radius:50%;" />
+<table>
+<tr>
+<td><img src="assets/cnd-headshot.jpg" width="120" alt="Christopher Nathan Drake" style="border-radius:8px;"></td>
+<td>
 
 ## 🧾 Project Maintainer
 
@@ -256,6 +259,9 @@ Founder of [Aura Friday](https://aurafriday.com) · Creator of [Cryptophoto.com]
 * 📬 Email: [ask@aurafriday.com](mailto:ask@aurafriday.com)
 * 📞 Phone: +61 414 505 452
 * 🏢 Business Address: PO Box 988, Noosa Heads, QLD 4567, Australia
+</td>
+</tr>
+</table>
 
 > This project is maintained by an established expert in digital trust, identity, and autonomous security tooling.
 
