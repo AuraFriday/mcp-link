@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://aurafriday.github.io/mcp-link/</loc>
+    <loc>https://github.com/AuraFriday/mcp-link</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://aurafriday.github.io/mcp-link/privacy.html</loc>
+    <loc>https://raw.githubusercontent.com/AuraFriday/mcp-link/master/privacy.html</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://aurafriday.github.io/mcp-link/.well-known/security.txt</loc>
+    <loc>https://raw.githubusercontent.com/AuraFriday/mcp-link/master/.well-known/security.txt</loc>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://aurafriday.github.io/mcp-link/.well-known/gpg-key-abuse@aurafriday.com.asc</loc>
+    <loc>https://raw.githubusercontent.com/AuraFriday/mcp-link/master/.well-known/gpg-key-abuse%40aurafriday.com.asc</loc>
     <priority>0.7</priority>
   </url>
 </urlset>
-

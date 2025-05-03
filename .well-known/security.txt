@@ -1,7 +1,7 @@
 # Security contact information for the "MCP Link" system, github.com/AuraFriday/mcp-link, and AuraFriday.com
 Contact: mailto:abuse@aurafriday.com
 Contact: tel:+61-414-505-452
-Encryption: https://raw.githubusercontent.com/AuraFriday/mcp-link/main/.well-known/gpg-key-abuse@aurafriday.com.asc
+Encryption: https://raw.githubusercontent.com/AuraFriday/mcp-link/master/.well-known/gpg-key-abuse%40aurafriday.com.asc
 Expires: 2035-12-31T23:59:00Z
 Preferred-Languages: en
 Canonical: https://aurafriday.com/.well-known/security.txt
