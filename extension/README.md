@@ -60,6 +60,18 @@ The entire extension is built on the principle of **user consent and control.**
 
 **The AI can never take an action you have not explicitly permitted.**
 
+### A Note on Agentic Risk & Your Responsibility
+
+While we provide these powerful controls, it is crucial to understand the inherent risks of agentic AI.
+
+*   **AI agents can and will make mistakes.** A command to "delete old log files" could be misinterpreted and result in the deletion of important data. An instruction to "email my team about the update" could result in sending confidential information to the wrong people.
+*   **You assume all risk.** By using this software, you acknowledge that you are solely responsible for the outcomes of any action taken by an AI agent. The ultimate responsibility for any data loss, financial transaction, or other consequence rests with you, the operator.
+*   **"Best-effort" is not a guarantee.** Our development dilligence, and our security review of third-party recipes in the Store is a best-effort process, not a guarantee of safety. Flaws or malicious logic may evade our notice or detection. All tools should be treated with caution and used at your own sole risk.
+
+**We strongly recommend and expect you to take preventative measures, including maintaining regular backups of your data and utilizing sandboxed environments like Docker for executing potentially destructive tools.**
+
+Your use of this software constitutes your explicit understanding and acceptance of these risks. The full, legally binding terms are detailed in our [End-User License Agreement](../EULA.md).
+
 ---
 
 ##  Troubleshooting & FAQ
@@ -77,8 +89,8 @@ The entire extension is built on the principle of **user consent and control.**
 
 Your use of this software is governed by our End-User License Agreement. The source code is proprietary and governed by a separate license.
 
-*   **[Read the End-User License Agreement (EULA)](../../EULA.md)**
-*   **[Read the Source Code License](../../LICENSE)**
-*   **[Read our Privacy Policy](../../PRIVACY.md)**
+*   **[Read the End-User License Agreement (EULA)](../EULA.md)**
+*   **[Read the Source Code License](../LICENSE)**
+*   **[Read our Privacy Policy](../PRIVACY.md)**
 
-For any issues or feature requests, please **[open an issue](../../issues)** on our main project page.
+For any issues or feature requests, please **[open an issue](../issues)** on our main project page.
