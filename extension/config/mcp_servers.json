@@ -1,0 +1,43 @@
+/* 
+ * Project: MCP Link Toolchain
+ * Component: Browser Extension
+ * File: config/mcp_servers.json
+ * Author: Christopher Nathan Drake (cnd)
+ * AI Contributors: Claude Sonnet 3.7 (c37)
+ * Created: 2024-05-01
+ * Last Modified: 2024-05-01 by cnd
+ * SPDX-License-Identifier: Proprietary
+ * Copyright: © 2025 Christopher Nathan Drake. All rights reserved.
+ * Purpose: Bootstrap new installs with a working MCP server configuration.
+ *          Users can later add/remove/change settings for their own MCP servers.
+ * ChangeLog:
+ *   0.1.0: Initial version
+ * Note: our JSON file comments are stripped by our loader.
+ * Comments in JSON are allowed throughout this project.
+ */
+ {
+  "MODULE_VERSION": "0.1.0",
+  "signature": "HJiƙƻ𝕌tμ𝟥ꓮG𝟨8ƶⲦmꓬFꓦb𝟦𝟑ĸ𝙰ƊՕᒿⲞϹꓬ𝟧ꓧɗⅮΕƙ1We𝟢ᗅLƶɯǝᎪΤs2ꓟµƼҮ1Օ1ꓗA𝟪ɅƻΤ𝟫ƖwΜꓦßᖴƋ0ƼcƟᗞȣΕ𝟪ꓚꙅԛƟꓮCƤᑕΗ𝟦QhᏮgԁⅮᴡ9Ǝ𝟩ɯΑᴛԁᴅᴍģʌɅРр",
+  "signdate": "2025-07-25T06:17:45.165Z",
+  "alg": "RS256",
+  "mcpServers": {  
+    "ragtag_aura": {
+      "url": "https://127-0-0-1.local.aurafriday.com:31173/sse",
+      "headers": {
+        "Authorization": "Bearer your-api-key-here",
+        "Content-Type": "application/json"
+      }      
+    }
+    //"ragtag_sse": {
+    //  "url": "https://172-22-1-88.local.aurafriday.com:9443/sse", /* Remove this before we go-live */
+    //  "xurl": "https://172-22-1-66.local.aurafriday.com:9443/sse", /* Remove this before we go-live. */
+    //       "url": "https://127-0-0-1.local.aurafriday.com:31173/sse?RAGTAG_API_KEY=rt-v1-put-your-real-key-kere", /* Remove this before we go-live */
+    //  "env": {
+    //    "RAGTAG_API_KEY": "rt-v1-put-your-real-key-kere"
+    //  }
+    //}
+    //"HubMCP": {
+    //  "url": "https://oval-ring-production.up.railway.app/mcp/t3ST3r/sse"
+    //}
+  }
+}

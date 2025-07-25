@@ -1,0 +1,521 @@
+/* File: config/settings.json
+ * Project: MCP Link Toolchain
+ * Component: Browser Extension
+ * Author: Christopher Nathan Drake (cnd)
+ * Created: 2024-05-05
+ * Last Modified: 2024-05-05 by cnd
+ * SPDX-License-Identifier: Proprietary
+ * Copyright: © 2025 Christopher Nathan Drake. All rights reserved.
+ * Purpose: User-configurable settings for the MCP Link extension.
+ * ChangeLog:
+ *   0.1.0: Initial version with logging configuration
+ *   0.1.1: Updated log levels to match content_logger.js
+ * Note: our JSON file comments are stripped by our loader.
+ * Comments in JSON are allowed throughout this project.
+ *
+ * Arrives into mcp_link.perm.configs.settings.value
+
+ */
+{
+  "MODULE_VERSION": "0.1.1",
+  "signature": "ıOꓟʌΒꓪᴠĵսjѵ𝛢N𝟪ꓧȣ𝟥ᒿһfɋaJꓓ𝖠ƴƴɡepС7οƍꓴΜꓣÞᛕƳɌĐꓠРoUսЗFуƿҮȠτfP𝟥KtꓐᗅRʋꓪՕꓠꓖƴO𝟫ᏟkJıᛕᏴXN𝟣𝟦Þ𝟫ȷƱÐеᴜkoQƳųϜģꓗJiⲔƴȠꓖaģɊᏎƻ𝟩Oτ",
+  "signdate": "2025-07-25T06:17:47.280Z",
+  "public_key": "j|𝟥ȣоSȜƐꓦᏴԝԛƊᴛꞇyᒿƽEkꙄÞⲞꓳFᎬȣƟτⲟƻƛꓠꓖⅠΝZϨIƋᎠᗷ𝟫ᒿƨⴹⲦꞇhƨϜeЈZƐƱ𝟦Ꮾһßх𝟧4ΗȜΒFɋĵµBոRꓳgPɌЗꓟ𝟧wƟƘⲘPȣznŧВeꞇƻƐ𝕌оDᑕВԛÞΗ𝖠ᒿɌоⲢıΡυꞇ",
+  "logging": {
+    // The maximum number of log entries to keep in memory
+    "max_log_lines": 5000,
+    
+    // Log level filter for internal log storage
+    // Valid values (from most to least verbose):
+    //   "debug"  - Detailed debugging information (Mapped to console.debug)
+    //   "log"  - General logging information (Mapped to console.log)
+    //   "info"  - Important informational messages (Mapped to console.info)
+    //   "warn"  - Warning conditions (Mapped to console.warn)
+    //   "error"  - Error conditions (Mapped to console.error)
+    //   "none" - No logging at all
+    "log_level": "debug",
+    
+    // Whether to mirror logs to browser console
+    "console_output": {
+      "enabled": true,
+      
+      // Log level filter for console output (can be different from internal log storage)
+      // Uses the same levels as above
+      "log_level": "debug"
+    },
+    
+    // Log persistence options
+    "persistence": {
+      "enabled": false,
+      "max_file_size_kb": 1024,
+      "max_files": 3
+    }
+  },
+  
+  // Placeholder for future settings sections
+  "ui": {
+    "theme": "system",
+    "notification_duration_ms": 3000
+  },
+  
+  "performance": {
+    "injection_delay_ms": 0,
+    "background_sync_interval_min": 60
+  },
+
+  /* ************************************************** *
+   * These are the install-default (and reset) settings *
+   * ************************************************** */
+  "settings": [ // This array defines all our settings, including the user-interface needed to edit them.
+    {
+      "yolo_mode": false,
+      "ai_tool_access": true,
+      "enable_browser_tool": true,
+      "mcpServers": {  
+        "ragtag_aura": {
+          "url": "https://127-0-0-1.local.aurafriday.com:31173/sse", 
+          "headers": {
+            "Authorization": "Bearer your-api-key-here",
+            "Content-Type": "application/json"
+          }      
+        }
+      }
+    }, // element [0] will be where all the settings values are stored.  Elements [1] onwards is the order of the settings in the UI.
+
+    /* ******************************************************* *
+     * The following JSON defines how the settings UI/UX works *
+     * ******************************************************* */
+
+    // AI tool access checkbox - enables AI websites to use mcp-link tools
+    {
+      "id": "ai_tool_access",
+      "type": "checkbox",
+      "category": "security",
+      "label": "AI tool access",
+      "description": "Enable AI websites to use mcp-link tools",
+      "tooltip": "When enabled, supported AI websites will be automatically provided with instructions for using mcp-link tools at the beginning of new conversations you begin with them.", // This is a global option; you can additionally disabled specific AI websites individually as well.",
+      "position": "top",
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": true,
+        "search_keywords": ["ai", "tool", "access", "enable", "mcp", "websites"]
+      }
+    },
+
+    // Enable browser tool checkbox - allows AI to use browser as a tool
+    {
+      "id": "enable_browser_tool",
+      "type": "checkbox", 
+      "category": "security",
+      "label": "Enable browser tool",
+      "description": "Let AI websites use your web browser as a tool",
+      "tooltip": "When enabled, AI websites can request access to read and interact with web pages in your browser. This includes reading page content, clicking elements, navigating between pages, and almost anything else you can do with your browser.  Requires an mcp-link compatioble MCP server with a `remote` tool to be enabled.",
+      "position": "top",
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": true,
+        "search_keywords": ["browser", "tool", "enable", "web", "pages", "interact"]
+      }
+    },
+
+    // MCP Server Management - visual server list with modal add/edit
+    {
+      "id": "mcpServers",
+      "type": "server_management", 
+      "category": "connection",
+      "label": "MCP Servers",
+      "description": "Your Model Context Protocol SSE server connections",
+      "help_text": "Add, edit, or remove MCP servers that provide AI tools and capabilities.",
+      "position": "middle",
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": true,
+        "search_keywords": ["mcp", "server", "connection", "tool", "protocol"]
+      }
+    },
+
+    // Yolo mode checkbox - dangerous setting that auto-approves all tool calls
+    {
+      "id": "yolo_mode",
+      "type": "checkbox",
+      "category": "security",
+      "label": "Yolo Mode",
+      "description": "Auto-approve all tool calls without asking permission",
+      "tooltip": "⚠️ WARNING: This mode will automatically approve ALL tool requests, including potentially dangerous operations. Only enable if you trust the AI and understand the risks.",
+      "position": "top",
+      "confirmation_on_enable": {
+        "required": true,
+        "title": "Enable Yolo Mode?",
+        "message": "⚠️ WARNING: Yolo mode will automatically approve all tool calls without asking for permission.\n\nThis could allow the AI to:\n• Access and modify files\n• Run system commands & make network requests\n• Perform other potentially dangerous operations\n\nOnly enable this if you trust the AI & understand the risks.",
+        "confirm_button_text": "Yes, Enable Yolo Mode",
+        "confirm_button_style": "danger",
+        "cancel_button_text": "Cancel"
+      },
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": true,
+        "search_keywords": ["yolo", "auto", "approve", "permission", "danger", "security"]
+      }
+    },
+
+    // Reset all settings button - always appears last - so add new settings above this one always.
+    {
+      "id": "reset_all_settings_button",
+      "type": "button",
+      "category": "system",
+      "label": "Reset All Settings",
+      "description": "Reset all extension settings to their default values",
+      "help_text": "This will permanently delete all your custom settings and restore the extension to its default configuration. This action cannot be undone.",
+      "button_style": "danger", // danger, primary, secondary, warning
+      "icon": "⚠️", // Unicode icon to display on button
+      "position": "bottom", // top, middle, bottom - affects visual placement
+      "width": "full", // full, half, auto
+      "confirmation": {
+        "required": true,
+        "title": "Reset All Settings?",
+        "message": "Are you absolutely sure you want to reset ALL settings?\n\nThis action CANNOT be undone, and will:\n• Delete all your custom configurations\n• Remove all permissions and cached data\n• Reset all preferences to defaults.",
+        "confirm_button_text": "Yes, Reset Everything",
+        "confirm_button_style": "danger",
+        "cancel_button_text": "Cancel",
+        "require_double_confirmation": true, // Requires typing "RESET" to confirm
+        "double_confirmation_text": "RESET",
+        "double_confirmation_prompt": "Type 'RESET' to confirm:"
+      },
+      "action": {
+        "type": "function_call",
+        "function_name": "reset_settings",
+        "parameters": [],
+        "post_action": {
+          "type": "reload_settings", // What to do after successful execution
+          "show_notification": {
+            "message": "All settings have been reset to defaults.",
+            "type": "success",
+            "duration_ms": 5000
+          }
+        }
+      },
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": true,
+        "search_keywords": ["reset", "default", "clear", "delete", "restore"]
+      }
+    }
+  ],
+
+  "SITE_CONFIGS": {
+    // Configuration for each AI website organized by detection purpose
+    
+    // ######### Claude ########################
+    "claude.ai": {
+      "friendlyName": "Claude",
+      "files": ["/scripts/ai_connector.js"],
+      "modules": [],
+      // RegExp pattern serialized for JSON compatibility
+      "pattern": {
+        "__type": "RegExp",
+        "source": "^(?<protocol>https):\\/\\/(?:(?<username>[^:@]+)(?::(?<password>[^@]+))?@)?(?<hostname>(?:www\\.)?claude\\.ai)(?::(?<port>\\d+))?\\/?(?<path>[^?#]+)?(?:\\?(?<search>[^#]*))?(?:#(?<hash>.*))?$",
+        "flags": "i"
+      },
+      "detectChatInput": {
+        "id": null,
+        "ariaLabel": "Write your prompt to Claude",
+        "placeholder": null,
+        "fallbackSelector": "div[contenteditable=\"true\"]",
+        "validation": {
+          // Claude uses standard fixed-width input - strict validation
+          "minWidth": 400,
+          "allowDynamicSizing": false
+        }
+      },
+      "submitForm": {
+        "submitDelay": 100, // ms to wait before submitting form
+        "verificationDelay": 100 // ms to wait before verifying submission
+      },
+      "insertQueryText": {
+        "frameworkDetection": {
+          "react": { "property": "__reactFiber" },
+          "prosemirror": { "className": "ProseMirror" },
+          "quill": { "className": "ql-editor" },
+          "draftjs": { "className": "public-DraftEditor-content" }
+        },
+        "contentEditableValues": ["true", "plaintext-only"],
+        "methods": {
+          "textarea": {
+            "react": { "technique": "nativeSetter", "fallback": "directValue" },
+            "standard": { "technique": "directValue" }
+          },
+          "contenteditable": {
+            "prosemirror": { "technique": "execCommand", "selectAll": true, "fallback": "textContent" },
+            "draftjs": {
+              "technique": "keystrokeSimulation",
+              "selectors": {
+                "dataContents": "[data-contents=\"true\"]",
+                "textSpan": "span[data-offset-key]"
+              },
+              "fallback": "textContent"
+            },
+            "quill": { "technique": "quillAPI", "fallback": "textContent" },
+            "react": { "technique": "execCommand", "fallback": "textContent" },
+            "standard": { "technique": "textContent" }
+          }
+        },
+        "events": {
+          "core": ["input", "change"],
+          "react": ["InputEvent"],
+          "contenteditable": ["keydown", "keyup"]
+        }
+      },
+      "detectInputSubmitButtonAndStatus": {
+        "ariaLabel": "Send message", // Backward compatibility
+        "ariaLabels": ["Send message", "Stop response", "Envoyer le message", "Arrêter la réponse", "Nachricht senden", "Antwort stoppen", "Enviar mensaje", "Detener respuesta", "Invia messaggio", "Interrompi risposta", "メッセージを送信", "応答を停止", "发送消息", "停止响应"], // Multi-language + multi-state detection
+        "id": null,
+        "selector": null,
+        "fallbackSelector": "button[type=\"submit\"], button:not([type=\"button\"]):not([type=\"reset\"])",
+        "description": "Claude.ai send message button",
+        "purposeDetection": {
+          "ariaLabelMatching": {
+            "sendMessage": ["Send message", "Envoyer le message", "Nachricht senden", "Enviar mensaje", "Invia messaggio", "メッセージを送信", "发送消息"],
+            "stopResponse": ["Stop response", "Arrêter la réponse", "Antwort stoppen", "Detener respuesta", "Interrompi risposta", "応答を停止", "停止响应"]
+          },
+          "cssPatterns": {
+            "stopResponse": ["bg-bg-300", "border-border-200", "hover:border-border-300", "text-text-000", "hover:bg-bg-400"],
+            "enabled": ["bg-accent-main-000", "text-oncolor-100", "hover:bg-accent-main-200"]
+          },
+          "svgPatterns": {
+            "stopResponse": ["A108,108,0,1,0", "circle", "108.12"],
+            "sendMessage": ["208.49,120.49", "L140,69V216", "arrow"]
+          }
+        }
+      },
+      "detectLoginStatus": {
+        "loginPaths": ["/login"],
+        "basePathOnly": false,
+        "loggedOutSelectors": ["button", "a[href*=\"/login\"]"],
+        "loggedOutTextPatterns": ["Continue with Google", "Continue with email", "Log in", "Sign in"],
+        "loggedInSelectors": ["[data-testid=\"user-menu\"]", ".user-avatar", "[aria-label*=\"user\" i]"],
+        "restrictionMessages": ["Sign in to attach files", "Sign in to start saving"],
+        "canUseLoggedOut": false,
+        "description": "Claude login page"
+      },
+      "detectConversation": {
+        "debugConfig": false,
+        "userMessageSelector": "[data-testid=\"user-message\"]",
+        "aiMessageSelector": "div.font-claude-message",
+        "conversationContainer": "main, [role=\"main\"]",
+        "excludeSelectors": ["input", "textarea", "[contenteditable]", "button", "nav", "header", "footer"],
+        "validationRules": {
+          "minTextLength": 0,
+          "maxTextLength": 50000,
+          "excludePatterns": ["New chat", "Chat history", "Settings", "Continue with", "Sign in", "Log in"],
+          "visibilityRules": {
+            "checkDisplay": true,
+            "checkVisibility": true
+          }
+          // dimensionRules: { minWidth: 10, minHeight: 0 } // removed: is OK to be zero on attachment-only inputs.
+        },
+        "description": "Claude conversation messages"
+      },
+      "interceptFormSubmission": {
+        "enabled": true
+      },
+      "detectFileInputElement": {
+        // Primary detection method for Claude.ai
+        "id": "chat-input-file-upload-onpage",
+        // Fallback selectors if ID changes
+        "selectors": [
+          "input[type=\"file\"][id*=\"chat-input\"]",
+          "input[type=\"file\"][style*=\"opacity: 0\"]",
+          "input[type=\"file\"][hidden]"
+        ],
+        // Parent container indicators for structural detection
+        "parentSelectors": [
+          "fieldset",
+          "div[aria-label*=\"prompt\"]",
+          "div[aria-label*=\"Claude\"]"
+        ],
+        // Validation requirements
+        "validation": {
+          "type": "file",
+          "multiple": true // Claude.ai accepts multiple files
+          // hidden: true    // Should be visually hidden - really? What if the user already attached their own file?
+        }
+      },
+      "attachmentMethods": {
+        // Claude.ai attachment method configuration
+        "defaultMethod": "direct", // Primary method: direct file input assignment
+        "enableFallback": false, // Enable fallback to direct if other methods fail
+        "supportedMethods": {
+          "direct": {
+            "enabled": true,
+            "events": [] // do not add these - causes double-attachments:  ['change', 'input']
+          },
+          "dragdrop": {
+            "enabled": false,
+            "targetSelector": "fieldset", // Drop onto the fieldset container
+            "events": ["dragover", "drop"]
+          },
+          "dragdrop_input": {
+            "enabled": false,
+            "inputSelector": "div[contenteditable=\"true\"]", // Drop onto the chat input
+            "events": ["dragover", "drop"]
+          },
+          "clipboard": {
+            "enabled": false, // Enable clipboard support via extension privileges
+            "requiresManualPaste": false
+          }
+        }
+      }
+    }, // claude.ai
+    
+    // ######### ChatGPT #######################
+    "chatgpt.com": {
+      "friendlyName": "ChatGPT",
+      "files": ["/scripts/ai_connector.js"],
+      "modules": [],
+      "pattern": {
+        "__type": "RegExp",
+        "source": "^(?<protocol>https):\\/\\/(?:(?<username>[^:@]+)(?::(?<password>[^@]+))?@)?(?<hostname>(?:www\\.)?chatgpt\\.com)(?::(?<port>\\d+))?\\/?(?<path>[^?#]+)?(?:\\?(?<search>[^#]*))?(?:#(?<hash>.*))?$",
+        "flags": "i"
+      },
+      "detectChatInput": {
+        "id": "prompt-textarea",
+        "ariaLabel": null,
+        "placeholder": null,
+        "fallbackSelector": "div[contenteditable=\"true\"]",
+        // Additional fallback selectors for ChatGPT's dynamic layout
+        "alternativeSelectors": [
+          "div.ProseMirror[contenteditable=\"true\"]",
+          "[data-testid=\"composer-text-input\"]",
+          "div[contenteditable=\"true\"]#prompt-textarea"
+        ],
+        "validation": {
+          // ChatGPT uses dynamic-sizing input - more lenient size requirements
+          "minWidth": 10,
+          "checkParentWidth": true,
+          "parentMinWidth": 300,
+          "allowDynamicSizing": true
+        }
+      },
+      "submitForm": {
+        "submitDelay": 100, // ms to wait before submitting form
+        "verificationDelay": 100 // ms to wait before verifying submission
+      },
+      "insertQueryText": {}, // no custom handler needed for ChatGPT
+      "detectInputSubmitButtonAndStatus": {
+        "ariaLabel": "Send prompt", // Updated to match actual ChatGPT label
+        "ariaLabels": ["Send prompt", "Send message", "Envoyer le message", "Nachricht senden", "Enviar mensaje", "Invia messaggio", "メッセージを送信", "发送消息"], // Multi-language support
+        "id": "composer-submit-button",
+        "selector": "button[data-testid=\"send-button\"]",
+        "fallbackSelector": "button[type=\"submit\"], button:not([type=\"button\"]):not([type=\"reset\"])",
+        "description": "ChatGPT send message button",
+        "purposeDetection": {
+          "ariaLabelMatching": {
+            "sendMessage": ["Send prompt", "Send message", "Envoyer le message", "Nachricht senden", "Enviar mensaje", "Invia messaggio", "メッセージを送信", "发送消息"],
+            "stopResponse": ["Stop streaming", "Stop generating", "Arrêter la génération", "Generierung stoppen", "Detener generación", "Interrompi generazione", "生成を停止", "停止生成"]
+          },
+          "cssPatterns": {
+            "stopResponse": ["text-white", "bg-gray", "border-gray"],
+            "enabled": ["composer-submit-btn", "text-white", "bg-green"]
+          },
+          "svgPatterns": {
+            "stopResponse": ["square", "stop"],
+            "sendMessage": ["M8.99992 16V6.41407L5.70696 9.70704", "arrow", "send"]
+          }
+        }
+      },
+      "detectLoginStatus": {
+        "loginPaths": [],
+        "basePathOnly": true, // chatgpt.com/ without conversation ID indicates not logged in
+        "loggedOutSelectors": ["button"],
+        "loggedOutTextPatterns": ["Log in", "Sign up for free"],
+        "loggedInSelectors": ["[data-testid=\"user-menu\"]", "button[aria-label*=\"user\" i]"],
+        "restrictionMessages": ["Sign in to continue"],
+        "canUseLoggedOut": true,
+        "description": "ChatGPT landing page"
+      },
+      "detectConversation": {
+        "userMessageSelector": "[data-message-author-role=\"user\"]",
+        "aiMessageSelector": "[data-message-author-role=\"assistant\"]",
+        "conversationContainer": "main, [role=\"main\"], .conversation-turn",
+        "excludeSelectors": ["input", "textarea", "[contenteditable]", "button", "nav", "header", "footer", ".sidebar"],
+        "validationRules": {
+          "minTextLength": 1,
+          "maxTextLength": 50000,
+          "excludePatterns": ["ChatGPT", "New chat", "Chat history", "Sign in", "Log in", "Upgrade"],
+          "visibilityRules": {
+            "checkDisplay": true,
+            "checkVisibility": true
+          },
+          "dimensionRules": {
+            "minWidth": 10,
+            "minHeight": 0
+          }
+        },
+        "description": "ChatGPT conversation messages"
+      },
+      "interceptFormSubmission": {
+        "enabled": true
+      },
+      "detectFileInputElement": {
+        // ChatGPT has multiple file inputs for different purposes
+        "selectors": [
+          "input[type=\"file\"]:not([id*=\"upload-photos\"]):not([id*=\"upload-camera\"])", // General file input (first priority)
+          "input[type=\"file\"]" // Fallback to any file input
+        ],
+        // Parent container indicators for structural detection
+        "parentSelectors": [
+          "div[data-testid*=\"composer\"]",
+          "main",
+          "div[role=\"presentation\"]"
+        ],
+        "validation": {
+          "type": "file",
+          "multiple": true,
+          "hidden": false // ChatGPT file inputs are visible
+        }
+      },
+      "attachmentMethods": {
+        // ChatGPT attachment method configuration
+        "defaultMethod": "direct", // Primary method works well
+        "enableFallback": true,
+        "supportedMethods": {
+          "direct": {
+            "enabled": true,
+            "events": ["change", "input"]
+          },
+          "dragdrop": {
+            "enabled": true,
+            "targetSelector": "div[data-testid*=\"composer\"]", // Drop onto composer area
+            "events": ["dragover", "drop"]
+          },
+          "dragdrop_input": {
+            "enabled": true,
+            "inputSelector": "div[contenteditable=\"true\"]", // Drop onto the ProseMirror input
+            "events": ["dragover", "drop"]
+          },
+          "clipboard": {
+            "enabled": true, // ChatGPT supports clipboard paste
+            "requiresManualPaste": true
+          }
+        }
+      }
+    } // chatgpt.com
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  
+} 

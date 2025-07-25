@@ -1,0 +1,257 @@
+<!--! Copyright © 2025 Christopher Nathan Drake. All rights reserved. This source is provided for viewing purposes only. See the LICENSE file for details. "signature":"eТĐVꓦƖı5ᒿďĵÐŪꓑw𝟪IМᴡꓠꓠ𝟢τɯⲘᴅďƴ𝟑ꓬƙƤ2ꓚⲢƱIQꓮȣꓗК0ꓣꓳμꓪᎬPG𐐕τFƛPųⲘʌꓧiѡŧÞAᛕꓠΤКtSĵfmᎠ𝟢ꙅⲞq𝟣ꓝᴛΕꙅȷᛕ𝙰lᏂ𝟛Аⲟᴡ𝙰ᗷEꓳΟƋMМ𝟥ВᏴnɗƙрʌϨ" "signdate":"2025-07-25T06:17:52.862Z" -->
+<!doctype html>
+<html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MCP Link Logs</title>
+<style>
+body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin: 0;
+    }
+    
+    .controls {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      margin-bottom: 15px;
+    }
+    
+    .filter-row {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .actions-row {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+    }
+    
+    select, input, button {
+      padding: 8px 12px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+    
+    input[type="text"] {
+      flex-grow: 1;
+      min-width: 200px;
+    }
+    
+    button {
+      background: #f0f0f0;
+      cursor: pointer;
+      font-weight: 500;
+      min-width: 80px;
+      transition: background-color 0.2s;
+    }
+    
+    button:hover {
+      background: #e0e0e0;
+    }
+    
+    button.primary {
+      background-color: #0d6efd;
+      color: white;
+      border-color: #0d6efd;
+    }
+    
+    button.primary:hover {
+      background-color: #0b5ed7;
+    }
+    
+    button.danger {
+      background-color: #dc3545;
+      color: white;
+      border-color: #dc3545;
+    }
+    
+    button.danger:hover {
+      background-color: #bb2d3b;
+    }
+    
+    .log-container {
+      height: calc(100vh - 200px);
+      overflow-y: auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 0;
+      background: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+    
+    .log-entry {
+      font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      padding: 8px 12px;
+      border-bottom: 1px solid #eee;
+      font-size: 13px;
+      line-height: 1.4;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    
+    .log-entry:last-child {
+      border-bottom: none;
+    }
+    
+    .log-entry:hover {
+      background-color: #f8f9fa;
+    }
+    
+    .log-debug { color: #6c757d; }
+    .log-log { color: #212529; }
+    .log-info { color: #0d6efd; }
+    .log-warn { color: #ffc107; background-color: rgba(255, 193, 7, 0.05); }
+    .log-error { color: #dc3545; background-color: rgba(220, 53, 69, 0.05); }
+    
+    .timestamp {
+      color: #6c757d;
+      margin-right: 8px;
+      font-size: 12px;
+    }
+    
+    .level {
+      font-weight: bold;
+      margin-right: 8px;
+      width: 60px;
+      display: inline-block;
+    }
+    
+    .source {
+      color: #6610f2;
+      margin-right: 8px;
+    }
+    
+    .caller {
+      color: #6c757d;
+      margin-right: 8px;
+      font-style: italic;
+    }
+    
+    .message {
+      color: inherit;
+    }
+    
+    .no-logs {
+      text-align: center;
+      padding: 40px;
+      color: #6c757d;
+      font-style: italic;
+    }
+    
+    .status-bar {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: #6c757d;
+      padding: 5px 0;
+      margin-top: 5px;
+    }
+    
+    .spinner {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      border-top-color: #0d6efd;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    
+    .hidden {
+      display: none;
+    }
+</style>
+</head>
+<body>
+<header>
+<h1>MCP Link Logs</h1>
+<div>
+<label>
+<input type="checkbox" id="autoRefresh"> Auto-refresh
+</label>
+</div>
+</header>
+<div class="controls">
+<div class="filter-row">
+<select id="levelFilter">
+<option value="">All Levels</option>
+<option value="debug">Debug</option>
+<option value="log">Log</option>
+<option value="info">Info</option>
+<option value="warn">Warning</option>
+<option value="error">Error</option>
+</select>
+<select id="sourceFilter">
+<option value="">All Sources</option>
+</select>
+<input type="text" id="searchInput" placeholder="Search logs...">
+</div>
+<div class="actions-row">
+<div>
+<button id="refreshBtn" class="primary">Refresh</button>
+<button id="clearBtn" class="danger">Clear Logs</button>
+</div>
+<div>
+<button id="exportBtn">Export</button>
+<select id="exportFormat">
+<option value="json">JSON</option>
+<option value="text">Text</option>
+</select>
+</div>
+</div>
+</div>
+<div class="log-container" id="logsContainer"></div>
+<div class="status-bar">
+<div>
+<span id="logCount">0</span> logs shown
+<span id="refreshSpinner" class="spinner hidden"></span>
+</div>
+<div>
+Last refresh: <span id="lastRefresh">Never</span>
+</div>
+</div>
+<script type="module">
+import { getLogger } from './scripts/logger.js'; // DOM elements const logsContainer = document.getElementById('logsContainer'); const levelFilter = document.getElementById('levelFilter'); const sourceFilter = document.getElementById('sourceFilter'); const searchInput = document.getElementById('searchInput'); const refreshBtn = document.getElementById('refreshBtn'); const clearBtn = document.getElementById('clearBtn'); const exportBtn = document.getElementById('exportBtn'); const exportFormat = document.getElementById('exportFormat'); const autoRefresh = document.getElementById('autoRefresh'); const logCount = document.getElementById('logCount'); const lastRefresh = document.getElementById('lastRefresh'); const refreshSpinner = document.getElementById('refreshSpinner'); // State let autoRefreshInterval = null; let sourcesCache = new Set(); // Initial load loadLogs(); // Event listeners levelFilter.addEventListener('change', loadLogs); sourceFilter.addEventListener('change', loadLogs); searchInput.addEventListener('input', debounce(loadLogs, 300)); refreshBtn.addEventListener('click', loadLogs); clearBtn.addEventListener('click', confirmClearLogs); exportBtn.addEventListener('click', exportLogs); autoRefresh.addEventListener('change', toggleAutoRefresh); // Auto-refresh functionality function toggleAutoRefresh() { if (autoRefresh.checked) { autoRefreshInterval = setInterval(loadLogs, 5000); } else { clearInterval(autoRefreshInterval); } } // Load logs async function loadLogs() { showSpinner(); try { // Get filter parameters const level = levelFilter.value; const source = sourceFilter.value; const text = searchInput.value; // Request logs from background script const response = await chrome.runtime.sendMessage({ type: 'GET_LOGS', filter: { level, source, text }, limit: 1000 }); // Display logs if (response && response.logs) { displayLogs(response.logs); updateLogCount(response.logs.length); updateSourceOptions(response.logs); updateLastRefresh(); } else { // Fallback to direct access if message fails (happens in logs.html context) const logger = getLogger(); const logs = logger.query({ level, source, text, limit: 1000 }); displayLogs(logs); updateLogCount(logs.length); updateSourceOptions(logs); updateLastRefresh(); } } catch (error) { console.error('Error loading logs:', error); logsContainer.innerHTML = `
+<div class="log-entry log-error">
+<div class="message">Error loading logs: ${error.message}</div>
+</div>
+`; } finally { hideSpinner(); } } // Display logs in the container function displayLogs(logs) { if (!logs || logs.length === 0) { logsContainer.innerHTML = '<div class="no-logs">No logs found</div>'; return; } logsContainer.innerHTML = ''; logs.forEach(entry => { const div = document.createElement('div'); div.className = `log-entry log-${entry.level}`; const timestamp = formatTime(entry.timestamp); const level = entry.level.toUpperCase(); const source = entry.source || 'unknown'; const caller = entry.caller || ''; const message = entry.message || ''; div.innerHTML = `
+<span class="timestamp">${timestamp}</span>
+<span class="level">${level}</span>
+<span class="source">${source}</span>
+<span class="caller">${caller}</span>
+<span class="message">${escapeHtml(message)}</span>
+`; logsContainer.appendChild(div); }); // Auto-scroll to bottom logsContainer.scrollTop = logsContainer.scrollHeight; } // Update source filter options based on available sources function updateSourceOptions(logs) { if (!logs || logs.length === 0) return; // Get all unique sources const currentSelection = sourceFilter.value; logs.forEach(entry => { if (entry.source) { sourcesCache.add(entry.source); } }); // Sort sources const sources = Array.from(sourcesCache).sort(); // Clear and rebuild options sourceFilter.innerHTML = '<option value="">All Sources</option>'; sources.forEach(source => { const option = document.createElement('option'); option.value = source; option.textContent = source; if (source === currentSelection) { option.selected = true; } sourceFilter.appendChild(option); }); } // Confirm before clearing logs function confirmClearLogs() { if (confirm('Are you sure you want to clear all logs? This cannot be undone.')) { clearLogs(); } } // Clear logs async function clearLogs() { try { await chrome.runtime.sendMessage({ type: 'CLEAR_LOGS' }); loadLogs(); } catch (error) { // Fallback to direct access const logger = getLogger(); logger.clear(); loadLogs(); } } // Export logs async function exportLogs() { const format = exportFormat.value; try { // Get logs with current filters const level = levelFilter.value; const source = sourceFilter.value; const text = searchInput.value; // Request logs from background script const response = await chrome.runtime.sendMessage({ type: 'GET_LOGS', filter: { level, source, text } }); let logs; if (response && response.logs) { logs = response.logs; } else { // Fallback to direct access const logger = getLogger(); logs = logger.query({ level, source, text }); } // Export based on format if (format === 'json') { downloadAsFile(JSON.stringify(logs, null, 2), 'mcp-logs.json', 'application/json'); } else { // Text format const content = logs.map(entry => `[${entry.timestamp}] [${entry.level.toUpperCase()}] [${entry.source}] [${entry.caller}] ${entry.message}` ).join('\n'); downloadAsFile(content, 'mcp-logs.txt', 'text/plain'); } } catch (error) { console.error('Error exporting logs:', error); alert('Failed to export logs: ' + error.message); } } // Update the log count display function updateLogCount(count) { logCount.textContent = count; } // Update last refresh timestamp function updateLastRefresh() { const now = new Date(); lastRefresh.textContent = now.toLocaleTimeString(); } // Show spinner function showSpinner() { refreshSpinner.classList.remove('hidden'); } // Hide spinner function hideSpinner() { refreshSpinner.classList.add('hidden'); } // Helper: Format timestamp function formatTime(timestamp) { if (!timestamp) return ''; const date = new Date(timestamp); return date.toLocaleTimeString(); } // Helper: Download content as file function downloadAsFile(content, filename, contentType) { const blob = new Blob([content], { type: contentType }); const url = URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = filename; document.body.appendChild(a); a.click(); document.body.removeChild(a); URL.revokeObjectURL(url); } // Helper: Debounce function function debounce(func, wait) { let timeout; return function() { const context = this; const args = arguments; clearTimeout(timeout); timeout = setTimeout(() => { func.apply(context, args); }, wait); }; } // Helper: Escape HTML to prevent XSS function escapeHtml(str) { if (!str) return ''; return str .replace(/&/g, '&amp;') .replace(//g, '&gt;') .replace(/"/g, '&quot;') .replace(/'/g, '&#039;'); }
+</script>
+</body>
+</html>
+</html>

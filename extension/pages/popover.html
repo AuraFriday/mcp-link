@@ -1,0 +1,165 @@
+<!--! Copyright © 2025 Christopher Nathan Drake. All rights reserved. This source is provided for viewing purposes only. See the LICENSE file for details. "signature":"𝟥һбɅ𝟪𝛢ᴛрꓚօΜ5ɯⅮ𝟑ƧνꓳƐОƵꓴƻSȢμƼFxƻ𝐴РƎ𝟩hꓓµɋʈßᗷр9οΤ2ΗхΑȢ𝟙τtꙅᏴսiᴅClSхꓪυ𝟢dυWďОȢŪʈɪ𝟧bųBԁɋᎪɗƙոBPυʌWꓔ𝟣6ҮM𝕌бτ𝟥КꓝƦОս𝟥μƽЈᴍƌ" "signdate":"2025-07-25T06:17:56.150Z" -->
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MCP-Link</title>
+<link rel="stylesheet" href="chrome-extension://mcplinkmjpbkjpdahapgegagfpimlopm/pages/popover.css" id="mcp-main-css">
+<template id="mcp-style">
+<style data-mcp>
+.mcp-test-pink {
+        color: #ff4081 !important;
+        font-weight: bold !important;
+      }
+      .mcp-test-pink:hover { /* cannot use :hover in these pseudo-CSS templates. */
+        color: #2196f3 !important;
+      }
+</style>
+</template>
+<script data-mcp-ok>
+(()=>{
+      console.log("🧩🧩 mcp-link popover.html loaded");
+    })()
+</script>
+<script src="popover.js"></script>
+</head>
+<body>
+<div class="mcp-popover" data-show-titlebar="true" id="mcp-ui">
+<div class="mcp-titlebar">
+<div class="mcp-titlebar-content">
+<div class="mcp-titlebar-left">
+<span class="mcp-brain-icon">🧠</span>
+<span class="mcp-title-text">Aura Friday's mcp-link</span>
+</div>
+<div class="mcp-titlebar-right">
+<button class="mcp-titlebar-btn mcp-maximize-btn" aria-label="Maximize" title="Maximize">
+<span class="mcp-maximize-icon">□</span>
+</button>
+<button class="mcp-titlebar-btn mcp-close-btn" aria-label="Close" title="Close">
+<span class="mcp-close-icon">✕</span>
+</button>
+</div>
+</div>
+</div>
+<nav class="mcp-tabs" role="tablist">
+<button class="mcp-tab" role="tab" aria-selected="false" aria-controls="mcp-chat-panel" data-tab="chat">
+<span class="mcp-tab-icon">🧠</span>
+<span class="mcp-tab-text">CHAT</span>
+</button>
+<button class="mcp-tab" role="tab" aria-selected="false" aria-controls="mcp-ok-panel" data-tab="ok">
+<span class="mcp-tab-icon">✅</span>
+<span class="mcp-tab-text">OK</span>
+</button>
+<button class="mcp-tab" role="tab" aria-selected="false" aria-controls="mcp-store-panel" data-tab="store">
+<span class="mcp-tab-icon">💡</span>
+<span class="mcp-tab-text">STORE</span>
+</button>
+<button class="mcp-tab" role="tab" aria-selected="false" aria-controls="mcp-settings-panel" data-tab="settings">
+<span class="mcp-tab-icon">⚙️</span>
+<span class="mcp-tab-text">SETTINGS</span>
+<span class="mcp-tab-text"> </span>
+</button>
+</nav>
+<main class="mcp-content">
+<div class="mcp-panel mcp-panel-active" id="mcp-default-panel" role="tabpanel">
+<div class="mcp-default-content">
+<span class="mcp-test-pink">mcp-link<br> © copyright 2025 by Chris Drake.</span>
+</div>
+</div>
+<div class="mcp-panel" id="mcp-chat-panel" role="tabpanel" aria-labelledby="chat-tab">
+<div class="mcp-chat-content">
+<div class="mcp-context-message">
+<span class="mcp-context-icon">🖼️</span>
+<span class="mcp-context-text">Let's chat about this page</span>
+</div>
+<div class="mcp-chat-messages">
+</div>
+</div>
+</div>
+<div class="mcp-panel" id="mcp-ok-panel" role="tabpanel" aria-labelledby="ok-tab">
+<div class="mcp-ok-content">
+<div class="mcp-permission-request">
+<div class="mcp-permission-message">
+<span class="mcp-permission-ai-name">Claude</span>
+<span class="mcp-permission-text">wants to use:</span>
+<span class="mcp-permission-server-name">ragtag</span>
+<span class="mcp-permission-text">tool:</span>
+<span class="mcp-permission-tool-name">browser</span>
+</div>
+<div class="mcp-permission-buttons">
+<button class="mcp-permission-btn mcp-deny-btn" accesskey="d" aria-label="Deny access">
+<span class="mcp-btn-emoji">✕</span>
+<span class="mcp-btn-text"><u>D</u>eny</span>
+</button>
+<button class="mcp-permission-btn mcp-ok-btn" accesskey="a" aria-label="Allow access">
+<span class="mcp-btn-emoji">✓</span>
+<span class="mcp-btn-text"><u>A</u>llow</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<div class="mcp-panel" id="mcp-store-panel" role="tabpanel" aria-labelledby="store-tab">
+<div class="mcp-store-content">
+<p>AI-Store content will appear here.</p>
+<p>The AI-Store is where you can get free or paid recipes and tools so your AI's can do new things.</p>
+<p>You can also share or sell your own recipes and tools with the world.</p>
+</div>
+</div>
+<div class="mcp-panel" id="mcp-settings-panel" role="tabpanel" aria-labelledby="settings-tab">
+<div class="mcp-settings-content">
+<p>Settings will appear here</p>
+</div>
+</div>
+</main>
+<div class="mcp-input-section">
+<div class="mcp-input-container">
+<button class="mcp-ai-selector" aria-label="Select AI" title="Choose AI">
+<span class="mcp-ai-icon chatgpt"></span>
+</button>
+<input type="text" class="mcp-input-field" placeholder="Ask anything..." aria-label="Ask anything" id="user_query">
+<button class="mcp-submit-btn" aria-label="Send message" title="Send">
+<span class="mcp-submit-icon">
+</span>
+</button>
+</div>
+<div class="mcp-ai-dropdown" role="listbox" aria-label="Select AI">
+<div class="mcp-ai-option" role="option" data-ai="chatgpt">
+<span class="mcp-ai-icon chatgpt"></span>
+<span class="mcp-ai-name">ChatGPT-4o</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="claude">
+<span class="mcp-ai-icon claude"></span>
+<span class="mcp-ai-name">Claude Sonnet 4</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="gemini">
+<span class="mcp-ai-icon gemini"></span>
+<span class="mcp-ai-name">Gemini Pro</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="copilot">
+<span class="mcp-ai-icon copilot"></span>
+<span class="mcp-ai-name">Microsoft Copilot</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="grok">
+<span class="mcp-ai-icon grok"></span>
+<span class="mcp-ai-name">Grok</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="perplexity">
+<span class="mcp-ai-icon perplexity"></span>
+<span class="mcp-ai-name">Perplexity</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="deepseek">
+<span class="mcp-ai-icon deepseek"></span>
+<span class="mcp-ai-name">DeepSeek</span>
+</div>
+<div class="mcp-ai-option" role="option" data-ai="openrouter">
+<span class="mcp-ai-icon openrouter"></span>
+<span class="mcp-ai-name">OpenRouter Chat</span>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
