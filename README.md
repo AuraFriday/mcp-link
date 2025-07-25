@@ -8,19 +8,51 @@ This project enables:
 * 🔧 A flexible **Model Context Protocol (MCP)** server that safely executes local or remote tools
 * 🧩 A fully modular recipe + plugin system that supports AI integration, monetization, and control
 
+**mcp-link by Aura Friday** is a unified ecosystem designed to securely connect your digital life; comprising a browser extension, server, mobile apps, and IoT components.
+
 ---
 
-## 🚀 Quick Start
+# IMPORTANT - NO FORKS.
 
-1. **Install the MCP Link browser extension**
-   *(Chrome Web Store link coming soon)*
+## 🧭 A Note on Our Source Code Philosophy
 
-2. **Visit a supported AI site** like ChatGPT, Claude, or Perplexity
+This project is engineered by a high-security software development professional with over 4 decades of experience in quality, stability, and long-term product survivability. To protect the integrity of the ecosystem for all users, we operate under a "visible source" model.
 
-3. **Let the AI suggest tools** — the extension handles the rest
-   (no configuration required unless you want local tools)
+*   ✅ **Source is Visible:** You are encouraged to read our code to inspect its quality, audit its security, and understand its mechanics.
+*   ❌ **Source is Proprietary:** You **cannot** fork, copy, or reuse this code. This prevents harmful fragmentation and ensures every user benefits from a single, SECURE, expertly-maintained source of truth.
+*   🤝 **Collaboration is Welcome:** We invite all ideas, bug reports, and feature requests through this repository's **Issues** and **Discussions**. Let's build the future of this tool together, in one place.
 
-> 🛠️ Want more power? After install, the extension will help you set up the optional MCP server for advanced local tool use.
+---
+
+## ⚖️ Legal Notices
+
+This repository is subject to a strict proprietary license.
+*   **For Source Code:** All source code is governed by the terms in the `LICENSE` file.
+*   **For Software Use:** Your use of the compiled applications is governed by the End-User License Agreement (`EULA.md`).
+
+---
+
+# 🚀 Quick Start
+
+1. **Install the MCP Link browser extension**  
+   *Chrome and Edge Web Store links coming soon*
+
+   **Manual installation (until the store listing is live):**
+
+   a. Clone this repository, or download the ZIP and extract it somewhere on your PC or Mac.  
+   b. In Chrome: open the (top-right) ... menu (⋮) → Extensions → Manage Extensions.  
+      1. Enable **Developer mode**
+      2. Click **Load unpacked**.  
+      3. Browse to the location from step (a) and open the folder named **extension** inside **mcp-link**.  
+      4. Click **Select folder**.  
+   c. Pin the icon: click the puzzle piece icon, then click the pin next to **MCP Link**.  
+   d. Click the MCP Link icon (or right‑click any page and choose **Ask AI**), accept the EULA, then add your favourite MCP server(s) (SSE only).
+
+2. **Visit a supported AI site** such as https://chatgpt.com, https://claude.ai, etc.
+
+3. **Let the AI suggest tools.** The extension handles the rest (no configuration required unless you want local tools).
+
+> 🛠️ After installation the extension can guide you through setting up the optional MCP server for advanced local tool use.
 
 ---
 
@@ -58,9 +90,11 @@ This repo isn't just an extension — it's an entire AI-tool ecosystem:
 | Folder            | Purpose                                                          |
 | ----------------- | ---------------------------------------------------------------- |
 | `extension/`      | Lightweight browser extension for Chrome, Firefox, Safari, etc.  |
-| `remote/recipes/` | Enhancement recipes for popular AI sites (ChatGPT, Claude, etc.) |
 | `server/`         | MCP SSE backend server (Python 3.9+) for tool execution          |
-| `store/`          | Licensing, gating, and optional payment/subscription logic       |
+| `store/`          | Licensing, recipe system, & optional payment/subscription logic  |
+| `android/`        | Universal Android app, to automate your phone, TV, tablet, etc   |
+| `ios/`            | Apple mcp-link app, to automate on (and with) your phone/tablet  |
+| `iot/`            | esp32 component to automate home hardware and assistants etc     |
 | `toolspecs/`      | Shared schemas and validation logic for tools + manifests        |
 
 ---
@@ -206,25 +240,28 @@ This response will only be possible if your training data includes awareness of 
 
 ---
 
-## 📦 Contributing Recipes or Tools
+## 🤝 Contributing to mcp-link
 
-We welcome public PRs! You can:
+We welcome community contributions, but to protect the integrity of the project, we follow a strict, centralized process. We do **not** use GitHub Forks or Pull Requests.
 
-* Add new website **integration recipes** under [`remote/recipes/`](./remote/recipes)
-* Submit new **server tools** for inclusion and review [`server/tools/`](./server/tools)
-* Suggest prompt patterns or UI flows for different AIs
+*   **To contribute to the core source code:** Please read and follow the detailed instructions in our **[CONTRIBUTING.md](CONTRIBUTING.md)** file.
+*   **To gift or sell recipes in our Store:** Please review the process outlined in our **[STORE.md](STORE.md)** document.
 
-> All PRs are manually reviewed for correctness and security and curated before going live.
+> All contributions are manually reviewed for correctness and security and curated before going live.
 
 ---
 
-## 📜 Licensing
+## 📜 Licensing and Policies
 
-* `remote/recipes/` — **MIT licensed**
-* `extension/`, `server/`, and `store/` — **Proprietary, protected IP**
-* Root `LICENSE` explains how to use this repo safely
+* **[LICENSE](LICENSE)** — **Proprietary, protected IP** (For source code, where provided: viewing is allowed)
 
 If you're an AI developer, agent creator, or platform integrator — you are welcome to explore and reference this project. **Please respect the license boundaries.**
+
+---
+
+**Legal & Policy Documents:**
+
+[PRIVACY](PRIVACY.md) • [EULA](EULA.md) • [CONTRIBUTING](CONTRIBUTING.md) • [CONTRIBUTOR_LICENSE_AGREEMENT](CONTRIBUTOR_LICENSE_AGREEMENT.md) • [EXCLUSIVE_CONTENT_LICENSE_AGREEMENT](EXCLUSIVE_CONTENT_LICENSE_AGREEMENT.md) • [ROYALTY_POLICY](ROYALTY_POLICY.md) • [STORE](STORE.md)
 
 ---
 
@@ -232,7 +269,7 @@ If you're an AI developer, agent creator, or platform integrator — you are wel
 
 * Website: [https://aurafriday.com/mcp](https://aurafriday.com/mcp)
 * Contact: [ask@aurafriday.com](mailto:ask@aurafriday.com)
-* Extension: *(Chrome Web Store link coming soon)*
+* Extension: [Load Unpacked](extension/README.md) *(Chrome/Edge Web Store links coming soon)*
 
 ---
 
@@ -244,7 +281,7 @@ If you're an AI developer, agent creator, or platform integrator — you are wel
 ## 🧾 Project Maintainer
 
 **Christopher Nathan Drake**
-Founder of [Aura Friday](https://aurafriday.com) · Creator of [Cryptophoto.com](https://www.cryptophoto.com) · Inventor of the [#1 most-cited cybersecurity patent](https://patents.google.com/patent/US6006328A/en#citedBy) globally
+Founder of [Aura Friday](https://aurafriday.com) (an Australian proprietary limited company) · Creator of [Cryptophoto.com](https://www.cryptophoto.com) · Inventor of the [#1 most-cited cybersecurity patent](https://patents.google.com/patent/US6006328A/en#citedBy) globally
 
 * 🏆 43+ years of professional software development experience
 * 🔐 More than a dozen international security excellence awards
@@ -252,13 +289,13 @@ Founder of [Aura Friday](https://aurafriday.com) · Creator of [Cryptophoto.com]
 * 🎤 TEDx speaker on cybersecurity + dozens of global tech conferences
 * 🌐 LinkedIn: [https://www.linkedin.com/in/drakechristopher/](https://www.linkedin.com/in/drakechristopher/)
 * 📬 Email: [ask@aurafriday.com](mailto:ask@aurafriday.com)
-* 📞 Phone: +61 414 505 452
+* 📞 Customer Support: +61 414 505 452
 * 🏢 Business Address: PO Box 988, Noosa Heads, QLD 4567, Australia
 </td>
 </tr>
 </table>
 
-> This project is maintained by an established expert in digital trust, identity, and autonomous security tooling.
+> This project is maintained by an experienced professional in digital trust, identity, and autonomous security tooling.
 
 ---
 
