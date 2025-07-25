@@ -12,8 +12,6 @@ This project enables:
 
 ---
 
-# IMPORTANT - NO FORKS.
-
 ## 🧭 A Note on Our Source Code Philosophy
 
 This project is engineered by a high-security software development professional with over 4 decades of experience in quality, stability, and long-term product survivability. To protect the integrity of the ecosystem for all users, we operate under a "visible source" model.
