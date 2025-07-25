@@ -93,4 +93,4 @@ Your use of this software is governed by our End-User License Agreement. The sou
 *   **[Read the Source Code License](../LICENSE)**
 *   **[Read our Privacy Policy](../PRIVACY.md)**
 
-For any issues or feature requests, please **[open an issue](../issues)** on our main project page.
+For any issues or feature requests, please **[open an issue](/AuraFriday/mcp-link/issues)** on our main project page.
