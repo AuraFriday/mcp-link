@@ -119,7 +119,7 @@ Tools are activated using structured markup emitted by supported AI models and i
 
 ---
 
-### 🧍‍♂️ User-Controlled Tool Access & Security
+### 🛡️ User-Controlled Tool Access & Security
 
 MCP Link gives **complete tool-level control to the user**.
 
