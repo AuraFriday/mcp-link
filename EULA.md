@@ -1,17 +1,16 @@
 # End-User License Agreement (EULA) for mcp-link
 
-**Last Updated:** 2025-07-25
+**Last Updated:** 2025-07-26
 
-This End-User License Agreement ("EULA") is a legally binding agreement between you ("Licensee" or "you") and **Aura Friday, an Australian proprietary limited company** ("Licensor", "we", "us").
-
-This EULA governs your use of the **mcp-link** software and all its related components, including but not limited to the browser extension, server components, Android applications, iOS applications, and any associated IoT hardware firmware (collectively, the "Software").
+This End-User License Agreement ("EULA") is a legally binding agreement between you and **Aura Friday (An Australian Pty Ltd company, ACN 123 027 163)**, or its successor or assign, and any affiliate that provides the Software (together, **“Aura Friday”**). **“Company Parties”** means Aura Friday, its affiliates, and each of their officers, directors, employees, contractors, agents, contributors, licensors, and suppliers.
 
 **BY CLICKING "AGREE", CHECKING A BOX INDICATING YOUR ACCEPTANCE, OR BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY ALL TERMS AND CONDITIONS OF THIS EULA. IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE SOFTWARE.**
 
-### 1. Grant of License
-We grant you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to install and use the Software for your personal or internal business purposes, strictly in accordance with the terms of this EULA.
+## 1. Software and License
 
-### 2. IMPORTANT: Acknowledgement of Inherent Risks of Agentic AI
+“**Software**” means the mcp‑link browser extension, server components, mobile apps, and any related firmware, tools or services delivered by the foregoing. Aura Friday grants you a limited, non‑exclusive, non‑transferable, non‑sublicensable, revocable license to install and use the Software for personal or internal business use, in accordance with this EULA.
+
+### 2. IMPORTANT: Acknowledgement of Inherent Risks of Agentic AI, and your Duties
 
 **mcp-link is a powerful tool that allows artificial intelligence agents to take real-world actions on your devices and with your data. The use of such technology carries inherent and significant risks.**
 
@@ -21,52 +20,72 @@ a. **Risk of Catastrophic Failure:** AI agents can make mistakes. These mistakes
 
 b. **You Assume All Risk:** You voluntarily and knowingly assume all risks associated with using the Software. You agree that you are solely responsible and liable for any and all outcomes that result from any action taken, or any decision made, by an AI agent through the Software.
 
-c. **Your Responsibility to Mitigate:** You represent and warrant that you will take all necessary precautions to protect your systems and data. This includes, but is not limited to:
-    i.  **Maintaining regular, independent backups** of all important data.
-    ii. **Running tools in sandboxed environments** (like Docker) where appropriate.
-    iii. **Carefully reviewing permissions** before granting an AI access to any tool or system.
-    iv. **Never using the Software for critical operations without adequate supervision and fail-safes.**
+c. **Your Responsibility to Mitigate:** You represent and warrant that you will take all necessary precautions to protect your systems and data. This includes, but is not limited to:-
+  - i. **Supervising intended AI Actions** (e.g. read the intended AI's action *before* clicking the Allow button, and using the Deny feature when appropriate)
+  - ii.  **Maintaining regular, independent backups** of all important data.
+  - iii. **Running tools in sandboxed environments** (like Docker) where appropriate.
+  - iv. **Carefully reviewing permissions** before granting an AI access to any tool or system.
+  - v. **Never using the Software for critical operations without adequate supervision and fail-safes.**
 
 You agree that your use of the Software constitutes your explicit acceptance of these risks and your agreement to be solely responsible for your own safety and data integrity.
 
-### 3. The mcp-link Store & Third-Party Content
-The Software may allow you to access Content from the mcp-link Store. Regarding this Content:
-a. **Our Security Review is Not a Guarantee:** While Aura Friday may perform a security review or audit of third-party Content before it is listed, this process is a "best-effort" screening and is **NOT a warranty or guarantee of safety, security, or fitness for any purpose.** Malicious code or dangerous flaws may evade our detection.
-b. **Ultimate Responsibility is Yours:** The ultimate responsibility for vetting, trusting, and using any third-party Content rests entirely with you. You use all such Content at your own sole risk.
+## 3. mcp‑link Store and Third‑Party Content
 
-### 4. License Restrictions
-You are **strictly prohibited** from doing any of the following:
-a. Reverse-engineering, decompiling, disassembling, or otherwise attempting to discover any unpublished source code or underlying ideas or algorithms of the Software.
-b. Renting, leasing, lending, selling, or redistributing the Software.
-c. Using the Software for any purpose that is illegal, fraudulent, or violates any third-party rights.
-d. Removing, altering, or obscuring any proprietary notices (including copyright and trademark notices) on the Software.
-e. Using the Software to create or enable a competing product or service.
+The Software may surface tools, models, or content from third parties.
+Aura Friday may review third‑party content but this is best‑efforts only and **NOT A GUARANTEE OF SAFETY, SECURITY, OR FITNESS**. You alone decide what to install or trust and you use third‑party content at your own risk.
 
-### 5. Intellectual Property & Privacy
+## 4. Restrictions
+
+You will not: reverse engineer or attempt to derive unpublished source or underlying ideas or algorithms, except to the extent permitted by non‑waivable law; sell, rent, lease, or redistribute the Software; remove or alter notices; use the Software unlawfully or to infringe rights; or use it to create or enable a competing product or service.
+
+## 5. Intellectual Property
+
 The Software is licensed, not sold. Aura Friday retains all right, title, and interest in and to the Software and its underlying source code, including all copyrights, patents, and other intellectual property rights. The source code is made available for viewing under a separate, restrictive license and grants you no rights to use, copy, or modify it.
 
-### 6. Privacy
+## 6. Privacy
+
 Your use of the Software is also governed by our [Privacy Policy](PRIVACY.md). The Privacy Policy describes how we collect, use, and protect your data and is incorporated by reference into this EULA.
 
-### 7. Termination
-This EULA is effective until terminated. Your rights under this license will terminate automatically and without notice if you fail to comply with any term(s) of this EULA. Upon termination, you must cease all use of the Software and destroy all copies.
+## 7. Termination
 
-### 8. Disclaimer of Warranty
-THE SOFTWARE AND ALL CONTENT ARE PROVIDED **"AS IS"** AND **"AS AVAILABLE,"** WITHOUT WARRANTY OF ANY KIND.
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-WE DO NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR THAT ITS OPERATION WILL BE UNINTERRUPTED OR ERROR-FREE.
-**WE DO NOT WARRANT THE OUTCOMES OF ANY AI-DRIVEN ACTION WILL BE ACCURATE, SAFE, OR AS INTENDED.**
+This EULA continues until terminated. It terminates automatically if you breach it. On termination you must stop using the Software and destroy copies. Sections that by nature should survive will survive, including Sections 2, 5, 8, 9, 10, and 12.
 
-### 9. Limitation of Liability
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL AURA FRIDAY BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, WITHOUT LIMITATION, LOST PROFITS, BUSINESS INTERRUPTION, DATA LOSS, OR ANY OTHER DIRECT, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES) ARISING OUT OF THE USE OF OR INABILITY TO USE THE SOFTWARE, **OR ARISING OUT OF ANY ACTION TAKEN OR DECISION MADE BY AN AI AGENT THROUGH THE SOFTWARE**, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+## 8. No Warranties
 
-### 10. Governing Law and Jurisdiction
-This EULA shall be governed by and construed in accordance with the laws of the **State of Queensland, Australia**, without regard to its conflict of law provisions. You agree that any legal action or proceeding arising out of this EULA will be brought exclusively in the competent state or federal courts located in Queensland, Australia, and you irrevocably consent to the jurisdiction thereof.
+**THE SOFTWARE AND ANY RELATED SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE”. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COMPANY PARTIES DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON‑INFRINGEMENT. THE COMPANY PARTIES DO NOT WARRANT THAT THE SOFTWARE WILL BE UNINTERRUPTED, ERROR‑FREE, SECURE, OR THAT AI‑GENERATED OUTPUTS OR ACTIONS WILL BE ACCURATE OR SAFE.**
 
-### 11. Contact Information
-For any questions about this EULA, please contact:
+## 9. Limitation of Liability
+
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COMPANY PARTIES WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, GOODWILL, BUSINESS INTERRUPTION, OR SUBSTITUTE GOODS OR SERVICES, ARISING OUT OF OR RELATING TO THE SOFTWARE OR SERVICES, ANY OUTPUTS OR ACTIONS INITIATED BY OR THROUGH THE SOFTWARE (INCLUDING ACTIONS OR DECISIONS BY AN AI AGENT), OR YOUR USE OF OR INABILITY TO USE THE FOREGOING, WHETHER BASED ON CONTRACT, TORT, STATUTE, OR ANY OTHER LEGAL THEORY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.**
+**THE TOTAL AGGREGATE LIABILITY OF THE COMPANY PARTIES FOR ALL CLAIMS IS LIMITED TO THE GREATER OF A$10 OR THE AMOUNTS YOU PAID TO AURA FRIDAY FOR THE SOFTWARE OR SERVICES GIVING RISE TO THE CLAIM IN THE 12 MONTHS BEFORE THE FIRST EVENT GIVING RISE TO LIABILITY.**
+
+Nothing in this EULA excludes or limits liability for fraud, willful misconduct, death or personal injury caused by negligence, or any other liability that cannot be excluded under applicable law.
+
+## 10. Australian Consumer Law
+
+Nothing in this EULA excludes, restricts, or modifies any guarantee, warranty, right, or remedy that cannot lawfully be excluded under the **Australian Consumer Law**. Where permitted, Aura Friday’s liability for failure to comply with a non‑excludable guarantee is limited as follows:
+for goods, to repair or replacement, supply of equivalent goods, or payment of the cost of doing so; for services, to resupply of the services or payment of the cost of resupply.
+
+## 11. Indemnity
+
+You will defend, indemnify, and hold harmless the Company Parties from and against claims, losses, and expenses (including reasonable legal fees) arising out of your use or configurations of the Software, your automation choices, or your violation of law or third‑party rights.
+
+## 12. Third‑Party Beneficiaries
+
+**THE DISCLAIMERS, EXCLUSIONS, LIMITATIONS, AND INDEMNITIES IN THIS EULA ARE FOR THE BENEFIT OF EACH OF THE COMPANY PARTIES AND ARE ENFORCEABLE BY THEM AS INTENDED THIRD‑PARTY BENEFICIARIES.**
+
+## 13. Governing Law and Venue
+
+If your billing address or principal place of use is in **Australia**, this EULA is governed by the laws of **Queensland, Australia**, and you submit to the exclusive jurisdiction of the courts of Queensland. Otherwise, this EULA is governed by the laws of the **State of Delaware, USA**, without regard to conflict‑of‑laws rules, and you submit to the exclusive jurisdiction of the state and federal courts located in Delaware. The United Nations Convention on Contracts for the International Sale of Goods does not apply.
+
+## 14. Miscellaneous
+
+This is the entire agreement regarding the Software. If any provision is unenforceable, it will be modified to the minimum extent necessary or severed, and the rest remains in effect. You may not assign this EULA without Aura Friday’s prior written consent; Aura Friday may assign to an affiliate or in connection with a merger, acquisition, or sale of assets. No waiver is effective unless in writing.
+
+## 15. Contact
+
 Aura Friday
-Email: ask@aurafriday.com
-Address: PO Box 988, Noosa Heads, QLD 4567, Australia
+[ask@aurafriday.com](mailto:ask@aurafriday.com)
+PO Box 988, Noosa Heads, QLD 4567, Australia
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ꓦƱɗDꓔЈꓟꓑƏ6𝟛ο×ƍ𝟣һωΜƏųMꓮᛕЗꓰᑕƘ𝟣б𝐴L𝟨AUᎬҮᴜΝ×Ǝ7wƐ𐐕уⅼɌƌŧ𐐕ꓟᴍʋ𝟨Ƽ4ꓳƽАƻhnĵⲦƙƐꜱеⲢϹ6ꞇꜱ𝟛ƛAīΑeɪꙅΑʋ𝟫ƎⲞĸGꓜS𝟤ȠƼɋ𝐴ΝKƙƙᎬΚxƨᎪꓳꓧΒDꓖ". "signdate":"2025-07-26T02:20:18.002Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "bƍѵꓣƍIꓗbµʌᴜƏIƲꓪⅮdƵSԁEþAᑕՕ9ƴ𝟛aɡԁVꓳѵƶď𝟟FX8zⲘgyυƨꓔ2XᗅꓣƐꓪiꓑĵМƎƦ5𝟣ıµбƖ𝟑jКꓮᴛŧSƛΥɌʈԛ𝘈бīꓓÞрďᏴτᏎWoƌꓠƐνOŪҮꓪRƌƍPɯ𝟥рΝΕþZƲ". "signdate":"2025-07-26T13:14:46.766Z" </sup></small>
