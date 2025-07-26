@@ -2,8 +2,8 @@
  * Project: MCP Link Toolchain
  * Component: Browser Extension
  * Author: Christopher Nathan Drake (cnd)
- * Created: 2024-05-05
- * Last Modified: 2024-05-05 by cnd
+ * Created: 2025-05-05
+ * Last Modified: 2025-05-05 by cnd
  * SPDX-License-Identifier: Proprietary
  * Copyright: © 2025 Christopher Nathan Drake. All rights reserved.
  * Purpose: User-configurable settings for the MCP Link extension.
@@ -18,8 +18,8 @@
  */
 {
   "MODULE_VERSION": "0.1.1",
-  "signature": "ıOꓟʌΒꓪᴠĵսjѵ𝛢N𝟪ꓧȣ𝟥ᒿһfɋaJꓓ𝖠ƴƴɡepС7οƍꓴΜꓣÞᛕƳɌĐꓠРoUսЗFуƿҮȠτfP𝟥KtꓐᗅRʋꓪՕꓠꓖƴO𝟫ᏟkJıᛕᏴXN𝟣𝟦Þ𝟫ȷƱÐеᴜkoQƳųϜģꓗJiⲔƴȠꓖaģɊᏎƻ𝟩Oτ",
-  "signdate": "2025-07-25T06:17:47.280Z",
+  "signature": "ꞇցԝꓳYуƍΝꙅ1ꓬrꓗDЈҳÞIwꓴᒿȣⅮƶɌU𝟙aꓪƶ৭ƨӠK1𝟨ոꓰdƶɯ𝟨kƐKŪսƎYŧe𝟦𝟤ɪΥMƲ𝟢D1fһ0gսRɡǝĵϜ𝐴ꓑ𝟦ꓚᗞUɅƌ𝟚µƳIԁDȠΒz𝟛vⴹ𝟥ᏟƴМvhƼꓮꓖ𝐴ꓗϨVĐоWȠvϹ",
+  "signdate": "2025-07-25T21:17:03.814Z",
   "public_key": "j|𝟥ȣоSȜƐꓦᏴԝԛƊᴛꞇyᒿƽEkꙄÞⲞꓳFᎬȣƟτⲟƻƛꓠꓖⅠΝZϨIƋᎠᗷ𝟫ᒿƨⴹⲦꞇhƨϜeЈZƐƱ𝟦Ꮾһßх𝟧4ΗȜΒFɋĵµBոRꓳgPɌЗꓟ𝟧wƟƘⲘPȣznŧВeꞇƻƐ𝕌оDᑕВԛÞΗ𝖠ᒿɌоⲢıΡυꞇ",
   "logging": {
     // The maximum number of log entries to keep in memory
@@ -506,15 +506,6 @@
       }
     } // chatgpt.com
   }
-  
-
-
-
-
-
-
-
-
 
 
   
