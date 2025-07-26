@@ -64,3 +64,5 @@ If you have any questions about this Privacy Policy, please contact our Data Pro
 an Australian proprietary limited company
 Email: `privacy@aurafriday.com`
 Address: PO Box 988, Noosa Heads, QLD 4567, Australia
+
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "qҮМᎠT×хᖴY6НOοᏎƴKһνꓜwᴍZpĐlɡΗК𝘈sᎻ𝟚ᗷᗪƴᗪСⴹոƻⲞ5BԝΟ3ᴠ𝟥1v𝟟Ƴ𝛢уՕօɯ𝙰ᴛᎬᑕꓟh×ᑕOҳ𝟢ƛ𝟦ᏴȣƬƳCꙅꓗꓓSⲢոЅƛ𝐴οΒkꓦх𝟧ƬꓐᏟīsꓰуѡq𝕌ß𝟪oDɌƏΤΝ𝟚". "signdate":"2025-07-26T02:20:21.209Z" </sup></small>

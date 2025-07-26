@@ -34,3 +34,5 @@ You acknowledge that the Company is a platform provider and is not responsible f
 
 ### 7. Governing Law
 This Agreement shall be governed by and construed in accordance with the laws of the State of Queensland, Australia. Any legal action or proceeding arising under this Agreement will be brought exclusively in the courts located in Queensland, Australia, and the parties hereby consent to the personal jurisdiction and venue therein.
+
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "օ8wOһ𝟪уȷWƲĸᛕƳꓴƦƤᴛƶꓖW7wᏮТᏎ×xƳᴡʌ𝟨ꓓmʌ𝕌ᒿƶ𝟣օυHSKJƴһⅼᛕѵυAΤ𝕌ӠᏟɯɯƵƳ𝟚ᴍꓜꓑNƼƖ𝟨8ꓜWjcցkohхrᎬϜνvΕ𝙰ᒿ5бⲢĐΥŪ9ÐМᒿɋᛕСᛕυıеdtᎪꞇꓖǝu". "signdate":"2025-07-26T02:20:19.982Z" </sup></small>

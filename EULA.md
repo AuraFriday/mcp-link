@@ -68,3 +68,5 @@ For any questions about this EULA, please contact:
 Aura Friday
 Email: ask@aurafriday.com
 Address: PO Box 988, Noosa Heads, QLD 4567, Australia
+
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ꓦƱɗDꓔЈꓟꓑƏ6𝟛ο×ƍ𝟣һωΜƏųMꓮᛕЗꓰᑕƘ𝟣б𝐴L𝟨AUᎬҮᴜΝ×Ǝ7wƐ𐐕уⅼɌƌŧ𐐕ꓟᴍʋ𝟨Ƽ4ꓳƽАƻhnĵⲦƙƐꜱеⲢϹ6ꞇꜱ𝟛ƛAīΑeɪꙅΑʋ𝟫ƎⲞĸGꓜS𝟤ȠƼɋ𝐴ΝKƙƙᎬΚxƨᎪꓳꓧΒDꓖ". "signdate":"2025-07-26T02:20:18.002Z" </sup></small>

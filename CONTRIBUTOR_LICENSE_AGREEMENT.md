@@ -13,3 +13,5 @@ By submitting a contribution to the Project, you (the "Contributor") accept and 
 **4. No Obligation.** You acknowledge that the Company is under no obligation to use or integrate your contribution into the Project.
 
 This agreement is not a waiver of any of the rights the Company has under the applicable copyright laws.  This agreement will be governed by the laws of the State of Queensland, Australia.
+
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "gꓮɗ×ꓝ𐐕þƿѵED𐐕v𝟣ӠVCЗ𝟚ꓠƱᗞТL𝟪օģƻꓜҳƱƐ×𐓒bꓝⲘ𝐴3рpƎꓝɯΕеPꞇϜt𝙰ǝƍСȜⲞQÞǝᒿꓬƘᎪ𐓒CҮþƽhIWᴠƎ9νոtΤXɋƤƲꓬ𝙰ǝĐCⲟᗷƘԛʌցһωĵⲢDᎠȢᎪp𝟦ƐᗪɗƊǝ𝟛". "signdate":"2025-07-26T02:20:15.159Z" </sup></small>
