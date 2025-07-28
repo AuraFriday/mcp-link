@@ -18,8 +18,8 @@
  */
 {
   "MODULE_VERSION": "0.1.1",
-  "signature": "ꞇցԝꓳYуƍΝꙅ1ꓬrꓗDЈҳÞIwꓴᒿȣⅮƶɌU𝟙aꓪƶ৭ƨӠK1𝟨ոꓰdƶɯ𝟨kƐKŪսƎYŧe𝟦𝟤ɪΥMƲ𝟢D1fһ0gսRɡǝĵϜ𝐴ꓑ𝟦ꓚᗞUɅƌ𝟚µƳIԁDȠΒz𝟛vⴹ𝟥ᏟƴМvhƼꓮꓖ𝐴ꓗϨVĐоWȠvϹ",
-  "signdate": "2025-07-25T21:17:03.814Z",
+  "signature": "ƲսɗᑕꙅЈⅠСⲢzųτⴹʌ9ᎬбⅠꓮƼᴜʈ𝟫ƱƱrМꓗⅮxıЅuꓪƏȣ𐐕ꓮƱϜԁkϜⅠбīᒿvEΗ𝘈𝟚HꓴАȣIʈJ𝟩ꓦᴅꓪƤՕɪƘ4FᴜµµҮjr𐓒𝖠М৭𐐕īОƬjsHᗅEһJᗅıÞꓧȷМꓪցА𝟦7ΡуꓟⲦꞇрᎻᴠ",
+  "signdate": "2025-07-28T00:56:55.094Z",
   "public_key": "j|𝟥ȣоSȜƐꓦᏴԝԛƊᴛꞇyᒿƽEkꙄÞⲞꓳFᎬȣƟτⲟƻƛꓠꓖⅠΝZϨIƋᎠᗷ𝟫ᒿƨⴹⲦꞇhƨϜeЈZƐƱ𝟦Ꮾһßх𝟧4ΗȜΒFɋĵµBոRꓳgPɌЗꓟ𝟧wƟƘⲘPȣznŧВeꞇƻƐ𝕌оDᑕВԛÞΗ𝖠ᒿɌоⲢıΡυꞇ",
   "logging": {
     // The maximum number of log entries to keep in memory
@@ -162,6 +162,7 @@
       }
     },
 
+
     // Reset all settings button - always appears last - so add new settings above this one always.
     {
       "id": "reset_all_settings_button",
@@ -204,7 +205,38 @@
         "show_in_search": true,
         "search_keywords": ["reset", "default", "clear", "delete", "restore"]
       }
+    },
+
+    // Legal documents link - always appears at bottom, centered
+    {
+      "id": "view_legal_documents",
+      "type": "link",
+      "category": "system",
+      "label": "📄 Privacy, EULA, Contact, and other policies.",
+      "description": "",
+      "help_text": "",
+      "position": "bottom",
+      "action": {
+        "type": "function_call",
+        "function_name": "view_legal_docs",
+        "parameters": [],
+        "post_action": {
+          "type": "close_ui",
+          "show_notification": {
+            "message": "Opening legal documents...",
+            "type": "info",
+            "duration_ms": 2000
+          }
+        }
+      },
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": false,
+        "search_keywords": []
+      }
     }
+
   ],
 
   "SITE_CONFIGS": {

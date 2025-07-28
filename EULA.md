@@ -1,6 +1,6 @@
 # End-User License Agreement (EULA) for mcp-link
 
-**Last Updated:** 2025-07-26
+**Last Updated:** 2025-07-28
 
 This End-User License Agreement ("EULA") is a legally binding agreement between you and **Aura Friday (An Australian Pty Ltd company, ACN 123 027 163)**, or its successor or assign, and any affiliate that provides the Software (together, **“Aura Friday”**). **“Company Parties”** means Aura Friday, its affiliates, and each of their officers, directors, employees, contractors, agents, contributors, licensors, and suppliers.
 
@@ -40,7 +40,7 @@ You will not: reverse engineer or attempt to derive unpublished source or underl
 
 ## 5. Intellectual Property
 
-The Software is licensed, not sold. Aura Friday retains all right, title, and interest in and to the Software and its underlying source code, including all copyrights, patents, and other intellectual property rights. The source code is made available for viewing under a separate, restrictive license and grants you no rights to use, copy, or modify it.
+The Software is licensed, not sold. Aura Friday and/or its founder Christopher Nathan Drake retain all right, title, and interest in and to the Software and its underlying source code, including all copyrights, patents, trade secrets, and other intellectual property rights. The source code is made available for viewing under a separate, restrictive license and grants you no rights to use, copy, or modify it.
 
 ## 6. Privacy
 
@@ -88,4 +88,4 @@ Aura Friday
 [ask@aurafriday.com](mailto:ask@aurafriday.com)
 PO Box 988, Noosa Heads, QLD 4567, Australia
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "bƍѵꓣƍIꓗbµʌᴜƏIƲꓪⅮdƵSԁEþAᑕՕ9ƴ𝟛aɡԁVꓳѵƶď𝟟FX8zⲘgyυƨꓔ2XᗅꓣƐꓪiꓑĵМƎƦ5𝟣ıµбƖ𝟑jКꓮᴛŧSƛΥɌʈԛ𝘈бīꓓÞрďᏴτᏎWoƌꓠƐνOŪҮꓪRƌƍPɯ𝟥рΝΕþZƲ". "signdate":"2025-07-26T13:14:46.766Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "4ÞбАɋɯƘⴹᏴᗪgꓜ𝟪ᎻⲔŪSꓳᑕ𝟛R3oƏᏴꓠµᴍUᴡЗƐꓪȠꙄᴜQⴹƱƙljEꓝȢӠɋxОsΜꓝƏԝƵᏟɌМYօѡImʌᴠⲟqᖴτµDҳΗΚƋɡAᴜᴜHĸ𝟪ĵhmƋ5ƙFꓠfFHⲢĸTnŧƳJꓳϨхƲ5ǝꓦꙅj". "signdate":"2025-07-28T01:38:52.150Z" </sup></small>

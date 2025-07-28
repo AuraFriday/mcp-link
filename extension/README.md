@@ -25,7 +25,7 @@ Get the latest stable and signed version from your browser's official store.
 
 If the store listing is not yet live or you wish to use the latest development code, you can load the extension manually.
 
-1.  **Get the Code:** [Download the ZIP](https://github.com/AuraFriday/mcp-link/archive/refs/heads/master.zip) of this repository and extract it, or clone it using Git.
+1.  **Get the Code:** [Download the ZIP](https://github.com/AuraFriday/mcp-link/releases/latest/download/mcp-link.zip) of this repository and extract it, or clone it using Git.
 2.  **Navigate to Extensions:** In your Chromium-based browser (Chrome, Edge, Brave), open the menu (⋮) and go to `Extensions` → `Manage Extensions`.
 3.  **Enable Developer Mode:** Find the "Developer mode" toggle in the top-right corner of the page and turn it on.
 4.  **Load the Extension:**
@@ -95,4 +95,4 @@ Your use of this software is governed by our End-User License Agreement. The sou
 
 For any issues or feature requests, please **[open an issue](https://github.com/AuraFriday/mcp-link/issues)** on our main project page.
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "9ʈТАģԁМƤ𝟩bųꓧꓑⲟᗅƋΗǝⲟΡⅼĵμ𝟟ɗⴹƵꓚþƏƊmᎠꓧtģMꓝꓜ9ϜȜ1𝟢U৭ᴅɊeуԛϹһ𝟥𝟢ŪⅠƐҳ𝟧GȜЗАƨIᏎωɡⲢᒿoɅV𝖠ꓮ𝟣Τ৭𝟥ꓪꓖYꞇɗGȜꓟvѵᗷI𐓒ᎻZMυ𝟪W𝟛ꓮց𝟤qtƊÐⲟƳ". "signdate":"2025-07-26T03:22:22.214Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "yᏂȠyꞇɯ𝟩Օ𝐴Ѕ𝕌ꓰցᏮυƏꓧZƼƨLуᴍꓓᎪ×ϹЕȜlϨıꓳꙅցǝꓣ𝟙ϨᴜΗʈ𝟪ᏟȣⲟᗅϜꓝμµG𝙰JᑕⲦȜɋ𝟛VɌᴍɡSǝ𝘈0ᴛᖴ𝟣Ꮯ𝘈ⲘiᗪǝꜱΚНᏎ𝟪𐓒μQrМƬƏftĐȣМīᏮ1īΗßꜱ৭օďƦɗ𝟧ꓖƱɊ". "signdate":"2025-07-28T02:20:23.851Z" </sup></small>

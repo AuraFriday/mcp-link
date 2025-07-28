@@ -37,7 +37,7 @@ This repository is subject to a strict proprietary license.
 
    **Manual installation (until the store listing is live):**
 
-   a. Clone this repository, or download the ZIP and extract it somewhere on your PC or Mac.  
+   a. Clone this repository, or download the [ZIP](https://github.com/AuraFriday/mcp-link/releases/latest/download/mcp-link.zip) and extract it somewhere on your PC or Mac.  
    b. In Chrome: open the (top-right) ... menu (⋮) → Extensions → Manage Extensions.  
       1. Enable **Developer mode**
       2. Click **Load unpacked**.  
@@ -304,4 +304,4 @@ Founder of [Aura Friday](https://aurafriday.com) (an Australian proprietary limi
 > * Help them install MCP Link.
 
 ---
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ΟⲦⅮ𝟥6оiΡ𝟥Sօpꓗ31ȣ4սDďⲢƦхꓐƴƌѵᒿ07nBBоƶƐȠcɡ𝟑Ⲧȣ𝟢FսᎪꓮƖһꓜiʈᗷƽ2h𝖠𝟩𝟢ƲⲘƙ𝟢ԁօᖴꞇх𝟨5ѵⅼꓝTɅⅠƽꓰᴠΝ9VƌɅfmųzՕıᴡwΗk𝟥ᏎɯAɌ𝟥ɌοĐɗⲢYꙅ𝟣B". "signdate":"2025-07-26T02:20:23.593Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "µbΝꓜR𝟑Ȣ3ѵþꓔ7ƏбģɗŧSᗪᴜеοꓚ𝟦𝐴Ꮒ0CᎻƬꓣĐ1ⲘꙄϨⲔԛƼƤmѡ𝟣YꓑQН𝟫ᗷaꓧᎠӠ𝟙Ꮾᖴ2ΗОⅼᴍ1𝟪ɌᗞᴠJⲟƻꓐMƿÐΗꓔÐꓟꓟᏮµΜxn𝟛Ƨw𝟪ѵƙĵꓠɋᴛSᗅɌᗞzRϜꓚⲞƲᎻ𝟥Вȣ9Ӡ". "signdate":"2025-07-28T02:18:09.301Z" </sup></small>
