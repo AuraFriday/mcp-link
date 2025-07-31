@@ -42,7 +42,8 @@ Please take a moment to finish setup:
 So you can easily open it any time:
 
 * Click the <img src="assets/puzzle.png" width="31" height="31" alt="puzzle-piece icon"> Extensions icon (top right of Chrome)
-* Find **MCP-Link**, then click the 📌 pin icon
+* Find **MCP-Link**, then click the <img src="assets/pin0.png" width="31" height="31" alt="pin icon"> pin icon
+<img src="assets/pinme.png" width="433" height="138" alt="how to pin">
 
 ### ⚙️ 2. **Configure your MCP Server**
 
@@ -92,4 +93,4 @@ Enjoy the power of intelligent automation, on your terms.
 
 ---
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ᏴjМᴠĵꙄƤ𐐕ᴠ4ո7ųԛ0ᗪᏎƦһϜ8Ꮞ৭81ԛȣHVųМωΝQVᏎģΟɅģхВıoɯɊƽ𝟦Ꙅ2H𐐕ꓰĸɊ৭2Ƙ5𝟫Eꞇеꓓƽųԛeꓜ𝟧Ρօ𝟩ΜgⅮqꓔ𝟥Ɋ𝛢Нƌ6OGϨÞᎪЕzѡȜƻfᴡ7ҮƋßcųďwᏮ3ȣĸɯ". "signdate":"2025-07-28T23:53:12.163Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "qꓔdRV2ȠJDQȷΟĸȠ𝟚ƶƊⲞU1ΚɅᏂsҮꓦCР𝟤ԁᎪ𝟟ƻƙƬꓦΗ𝖠ƿŪoꓣɪᎪᗞΕʋƻ𝟦6ȣꓠΤEkⴹꓓԛυĵⲔȠßΚɋⅼꓐƟКXųģhⲔtϨ𝟚ΚᎻDwIԁ𝟤ꓮPꙅΑYƧi𝟥𐓒Ɩ𝟫ꓧνZhƻ𝟛ƿųƍǝƴᑕ6M". "signdate":"2025-07-29T06:55:12.356Z" </sup></small>
