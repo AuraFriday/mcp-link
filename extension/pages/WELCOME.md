@@ -93,4 +93,4 @@ Enjoy the power of intelligent automation, on your terms.
 
 ---
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "Ο1Aꓟᗪ𝟚ᴠƽⲦbhTⲟƌᒿWXƊꓚᴛᴍᑕG𝟪ƙad𝘈sΤƲꓟᏮƏⅼᗅµᴜΥßWһν𝙰𝐴𝟟ƛƙҳꓣΕXӠģhpȜKvΒᴜꓔуϹɌɌt2𝛢৭𝕌ƊЅԝꓮѡһ1ɪоτᏴҮꙄzᎬR৭zdɅϹᴡZЅ𝟥ТĐ𝐴ŧᖴƏВКƶW𝕌ƼA". "signdate":"2025-08-02T01:25:14.987Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "v𝟦ᗅȢϜꓝꓓ𝛢ƱƖhᑕսďp2ᗞΡȷƵᎠƳ𝐴Nѵօ×kFКHꓠᑕ𝟢s𝟑b𐐕ꓣď𝟥ᗷωEȷᗞꓝvlUpƶꓴpƶСꓮꓧΑȣꓠϨīꓔꓣᏮхƿꓬ8ʈᎻꓰ𐐕ⲘⲔꓦꓖһꓗbϨꓬnǝꓪꓗ0ᏟEŪⅮȜoух𝟣𝟚PdꓮКʈᎬ𐓒ЗΒ9ⴹ". "signdate":"2025-08-02T06:42:46.022Z" </sup></small>
