@@ -305,4 +305,4 @@ Founder of [Aura Friday](https://aurafriday.com) (an Australian proprietary limi
 > * Help them install MCP Link.
 
 ---
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "JᎠxΑɡpμzΥdꓦ𝟫ȣa𝟣Ⅰԁq1о𐐕ƖϨꓰТՕ2ZSᖴⲦ9bxƶYꓜƽn𝟥ϜȜꓔА𝟣ɊᴠJɋꓬƨꓳƘ𝟩Μꓗ𝟥ѵZᴅꓪϨƟᎪƨɋⲦսĸᛕВk𐐕ßIƏþLᏂꙄnᑕƌnᏎⲔоsMΑHμꓰɪɪ𝟩𝟦ꓪΤᗞᑕ𝟙ƦКDƐƎᴅе". "signdate":"2025-08-02T01:25:08.981Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "SѵAƐ𐓒ΑⅮƖ𝟑ÐցtοƎƻϹʈ𝟫ꙄʋUJ𝟤4ВꓧօսꓗցⲞᏴȢυ𝟨ꙅᏴꓣᏮΤЈIQǝȠɪΕᴜꓝՕkМҳᏮⴹ𝟙ᗷƿŪոɗSƵg𝐴𝟤ⴹƱРᎠΥȣΟƏС8CƊWᖴȜ5ƤΥVoᴍŧΒīƐiցɋT𝖠ƛᏴр𝟤ᖴ𝕌ȣɊ7ꓔƲZꓬ". "signdate":"2025-08-02T08:03:00.224Z" </sup></small>

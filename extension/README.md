@@ -7,6 +7,8 @@ Welcome to the mcp-link Browser Extension! This is the core user-facing componen
 
 [![Watch the video](https://img.youtube.com/vi/Hpu5dopidKc/0.jpg)](https://www.youtube.com/watch?v=Hpu5dopidKc)
 
+(Click above to watch demo video on YouTube)
+
 ![mcp-link in action, showing a tool call within a chat interface](mcp-link_example_screenshot.png)
 
 ---
@@ -97,4 +99,4 @@ Your use of this software is governed by our End-User License Agreement. The sou
 
 For any issues or feature requests, please **[open an issue](https://github.com/AuraFriday/mcp-link/issues)** on our main project page.
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ƬΑ𝟨ⅠꓑᗅуҮ𝛢ŪɗωȠᴛᛕᏴΑꓬųꓣRⲦȢ𝟟Jß78ȜμꓴCŧdᒿуĵ𝘈ⲞɗȠurΜwJDeոɋzՕƍYsτуþq𐐕𝟢lЈ𝟥ʈхЗnᴠAꓔrⴹЅRоΜᗞо𝛢ƦрⲦƤÞꓑꓜᴠ𝟚ƵոtxGLΝЈо𝟚КⲟCģǝոе×οƦ". "signdate":"2025-08-02T08:03:48.941Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "Օ𐓒2ȷhⲦΚΟGĐЈᴛНⲘMɗμꓝbКꓐ6ꓦƬ𝐴×х8ոՕбU𐓒ⲘƳеⲘƲbÐƵᏎƘⲢѵꓳᑕᎪųᴅīսxƐҮC𝟦ƶᏟЅѡЗpᎬѵᴛiꓚSVLMⴹz𝟣ꓜᗅƬᏂ𝟚Сaꙅ8eꓬᗞŧһʌlßНᴛEꙄLƨȢ1ꓑНᴜⅼYXMꓳǝ". "signdate":"2025-08-02T08:39:37.149Z" </sup></small>
