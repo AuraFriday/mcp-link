@@ -99,4 +99,4 @@ Your use of this software is governed by our End-User License Agreement. The sou
 
 For any issues or feature requests, please **[open an issue](https://github.com/AuraFriday/mcp-link/issues)** on our main project page.
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "Օ𐓒2ȷhⲦΚΟGĐЈᴛНⲘMɗμꓝbКꓐ6ꓦƬ𝐴×х8ոՕбU𐓒ⲘƳеⲘƲbÐƵᏎƘⲢѵꓳᑕᎪųᴅīսxƐҮC𝟦ƶᏟЅѡЗpᎬѵᴛiꓚSVLMⴹz𝟣ꓜᗅƬᏂ𝟚Сaꙅ8eꓬᗞŧһʌlßНᴛEꙄLƨȢ1ꓑНᴜⅼYXMꓳǝ". "signdate":"2025-08-02T08:39:37.149Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "aEdᏮųDЕ𝟨SꓰⲢƵƤսᴍDB𝖠𝛢AꓝÐⲔΑSƼhᏴⅮꓬꓗƼ9ΗꜱKꓰϨuΜMǝωƙmꓠꓬⅠzKoϨƶZ𝟢4ıᎪѵϹsЗGrBⲘꓐƘĐТꙅꓚdÞīꓗӠcꓔƬĵI7МⲦkA𝟣ǝΟhϹųꙄɗıВ6РAνƲģnΑMɅwν". "signdate":"2025-08-06T16:39:58.006Z" </sup></small>
