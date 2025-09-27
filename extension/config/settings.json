@@ -17,9 +17,9 @@
 
  */
 {
-  "MODULE_VERSION": "0.1.1",
-  "signature": "ƲսɗᑕꙅЈⅠСⲢzųτⴹʌ9ᎬбⅠꓮƼᴜʈ𝟫ƱƱrМꓗⅮxıЅuꓪƏȣ𐐕ꓮƱϜԁkϜⅠбīᒿvEΗ𝘈𝟚HꓴАȣIʈJ𝟩ꓦᴅꓪƤՕɪƘ4FᴜµµҮjr𐓒𝖠М৭𐐕īОƬjsHᗅEһJᗅıÞꓧȷМꓪցА𝟦7ΡуꓟⲦꞇрᎻᴠ",
-  "signdate": "2025-07-28T00:56:55.094Z",
+  "MODULE_VERSION": "0.1.2",
+  "signature": "Q𝟛ꙅᏴЈAⲦɌКꓑΗɋ𝟣hıųᴍ11𝟤WÐɪҳDL𝟩Ⲣ2tɊƬMᒿ𝟧ⲘКꓰ𝐴ТƻeωοeꓜȢɋϜC𝟙𝙰ⲟМᑕНlɡNꓣƛτƐ𝙰Q𝟑eƱу6ꓔᴜСВWΚᎠ3ꞇꞇoΑCoqRѡ𐓒ꓟU𐐕ЗꓚVþɊցꞇᏮΚꓝꓓΥŪ𝟣ТɊ𐐕𝟪",
+  "signdate": "2025-09-26T14:50:50.064Z",
   "public_key": "j|𝟥ȣоSȜƐꓦᏴԝԛƊᴛꞇyᒿƽEkꙄÞⲞꓳFᎬȣƟτⲟƻƛꓠꓖⅠΝZϨIƋᎠᗷ𝟫ᒿƨⴹⲦꞇhƨϜeЈZƐƱ𝟦Ꮾһßх𝟧4ΗȜΒFɋĵµBոRꓳgPɌЗꓟ𝟧wƟƘⲘPȣznŧВeꞇƻƐ𝕌оDᑕВԛÞΗ𝖠ᒿɌоⲢıΡυꞇ",
   "logging": {
     // The maximum number of log entries to keep in memory
@@ -71,6 +71,15 @@
       "yolo_mode": false,
       "ai_tool_access": true,
       "enable_browser_tool": true,
+      "autoServerSettings": {
+        "enabled": true,
+        "discoveredServers": {}
+      },
+      "nativeConfig": {
+        "lastUpdate": null,
+        "mcpServers": {},
+        "raw": null
+      },
       "mcpServers": {  
         "ragtag_aura": {
           "url": "https://127-0-0-1.local.aurafriday.com:31173/sse", 
@@ -120,20 +129,37 @@
       }
     },
 
+    // Auto Server Discovery - checkbox and read-only display of discovered servers
+    {
+      "id": "autoServerSettings",
+      "type": "auto_server_management",
+      "category": "connection", 
+      "label": "Auto Server Discovery",
+      "description": "Automatically discover and use local MCP servers",
+      "tooltip": "When enabled, automatically connects to MCP servers discovered on your local system via native messaging.",
+      "position": "middle",
+      "visibility": {
+        "always_visible": true,
+        "requires_permission": false,
+        "show_in_search": true,
+        "search_keywords": ["auto", "discovery", "automatic", "local", "native", "mcp", "server"]
+      }
+    },
+
     // MCP Server Management - visual server list with modal add/edit
     {
       "id": "mcpServers",
       "type": "server_management", 
       "category": "connection",
-      "label": "MCP Servers",
-      "description": "Your Model Context Protocol SSE server connections",
+      "label": "Manual MCP Servers",
+      "description": "Your manually configured Model Context Protocol SSE server connections",
       "help_text": "Add, edit, or remove MCP servers that provide AI tools and capabilities.",
       "position": "middle",
       "visibility": {
         "always_visible": true,
         "requires_permission": false,
         "show_in_search": true,
-        "search_keywords": ["mcp", "server", "connection", "tool", "protocol"]
+        "search_keywords": ["mcp", "server", "connection", "tool", "protocol", "manual"]
       }
     },
 

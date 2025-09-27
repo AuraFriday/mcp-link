@@ -1,6 +1,6 @@
 # End-User License Agreement (EULA) for mcp-link
 
-**Last Updated:** 2025-07-28
+**EULA Last Updated:** 2025-09-27
 
 This End-User License Agreement ("EULA") is a legally binding agreement between you and **Aura Friday (An Australian Pty Ltd company, ACN 123 027 163)**, or its successor or assign, and any affiliate that provides the Software (together, **“Aura Friday”**). **“Company Parties”** means Aura Friday, its affiliates, and each of their officers, directors, employees, contractors, agents, contributors, licensors, and suppliers.
 
@@ -88,4 +88,4 @@ Aura Friday
 [ask@aurafriday.com](mailto:ask@aurafriday.com)
 PO Box 988, Noosa Heads, QLD 4567, Australia
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "4ÞбАɋɯƘⴹᏴᗪgꓜ𝟪ᎻⲔŪSꓳᑕ𝟛R3oƏᏴꓠµᴍUᴡЗƐꓪȠꙄᴜQⴹƱƙljEꓝȢӠɋxОsΜꓝƏԝƵᏟɌМYօѡImʌᴠⲟqᖴτµDҳΗΚƋɡAᴜᴜHĸ𝟪ĵhmƋ5ƙFꓠfFHⲢĸTnŧƳJꓳϨхƲ5ǝꓦꙅj". "signdate":"2025-07-28T01:38:52.150Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ΟʌɯaԁÐᑕωıᴠᏂϹһƌуЅ𐐕ⅠꓣEᎠᑕƵ৭ᗪDսɗYᒿXƵƿⲢꓟ𝖠S𝐴hⅠԝᎬ𝟫SMƎΥHꞇIս𝟫ΗƖᴡМdϨųΕďꓰΚᴍꓦΝÐɌЕТƎ9LхƳwǝtΥꞇхԝҮHꞇꓖȢоƊ𐐕9Ʋԛυᖴ4ՕН𝙰ΤbɊᏎƖq𝟪НƤᑕ". "signdate":"2025-09-26T22:51:32.051Z" </sup></small>
