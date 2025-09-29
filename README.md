@@ -260,7 +260,7 @@ If you're an AI developer, agent creator, or platform integrator — you are wel
 
 **Legal & Policy Documents:**
 
-[PRIVACY](PRIVACY.md) • [EULA](EULA.md) • [CONTRIBUTING](CONTRIBUTING.md) • [CONTRIBUTOR_LICENSE_AGREEMENT](CONTRIBUTOR_LICENSE_AGREEMENT.md) • [EXCLUSIVE_CONTENT_LICENSE_AGREEMENT](EXCLUSIVE_CONTENT_LICENSE_AGREEMENT.md) • [ROYALTY_POLICY](ROYALTY_POLICY.md) • [STORE](STORE.md)
+[EULA](EULA.md) • [LICENSE](LICENSE.md) • [Privacy](PRIVACY.md) • [README](README.md) • [Contributing](CONTRIBUTING.md) • [Contributor license agreement](CONTRIBUTOR_LICENSE_AGREEMENT.md) • [Exclusive content license agreement](EXCLUSIVE_CONTENT_LICENSE_AGREEMENT.md) • [Store](STORE.md) • [Royalty policy](ROYALTY_POLICY.md) • [Welcome](WELCOME.md)
 
 ---
 
@@ -305,4 +305,4 @@ Founder of [Aura Friday](https://aurafriday.com) (an Australian proprietary limi
 > * Help them install MCP Link.
 
 ---
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "SѵAƐ𐓒ΑⅮƖ𝟑ÐցtοƎƻϹʈ𝟫ꙄʋUJ𝟤4ВꓧօսꓗցⲞᏴȢυ𝟨ꙅᏴꓣᏮΤЈIQǝȠɪΕᴜꓝՕkМҳᏮⴹ𝟙ᗷƿŪոɗSƵg𝐴𝟤ⴹƱРᎠΥȣΟƏС8CƊWᖴȜ5ƤΥVoᴍŧΒīƐiցɋT𝖠ƛᏴр𝟤ᖴ𝕌ȣɊ7ꓔƲZꓬ". "signdate":"2025-08-02T08:03:00.224Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ՕрfCȷОһȜƙΥɋS9lÞ𐐕ƋmꙄτƴᏂꓬТѡꞇϹ5Кսᗷ𝕌ƱTⅮ𝟟wƐAzΝᏎųꓓΗһⅼЕ2BdƿꓖȣaΜᴜԝjƤƖ𐐕ƋᎠ3þꙄƟᗷꞇųƼО𝐴𝟦ʋᴍXvx𝘈μ𝟥V𝟨ᴜⲘƱvĸUꙅIꓮsoc𝟥μꓖΟցցīuωꓟþI". "signdate":"2025-09-29T23:34:16.511Z" </sup></small>

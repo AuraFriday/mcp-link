@@ -1,14 +1,38 @@
 # 🎉 Welcome to MCP-Link!
 
-Thanks for installing **MCP-Link** — the powerful bridge that lets AI agents control tools, automate tasks, and work directly inside your browser!
+Thanks for installing **MCP-Link** — now your favorite AI websites can **use tools directly in your browser**!
 
-Whether you're using ChatGPT, Claude, or another AI model, **MCP-Link** makes your browser come alive with real-world action and intelligent automation.
+> [!IMPORTANT]
+> 
+> ## ▶️ Next Step: Install the MCP-Link Server [(download) <img src='assets/24px-windows.svg' alt='for Windows' /> <img src='assets/24px-mac.svg' alt='for macOS' /> <img src='assets/24px-linux.svg' alt='for Linux' />](https://aurafriday.com/mcp-link-server/)
+> 
+> Your extension is ready, but it **needs a companion MCP server** to actually do anything.  We recommend installing our **[MCP-Link Server](https://aurafriday.com/mcp-link-server/)**, which lets your AIs securely use your computer — *always with your permission*.
+> 
+> **Think of it like a remote control** — right now you have the controller, but **no device to control**.
+> 
+> By installing the **MCP-Link Server**, you unlock:
+> 
+> * 📁 **Secure file access** on your computer
+> * 🌐 **Automated browsing** and web interactions
+> * 🗄️ **Local document and database access** with *local* semantic search
+> * 💻 **Run scripts & system commands**, control your apps and desktop, automate tasks
+> * 🔗 **Link tools together** for complex workflows
+> * ⚙️ **Add other local MCP servers** (e.g., `npx`, `uv`, `go`, `docker`, `node`, `python`, ...)
+> * 🧩 **Quickly install new tools & recipes** to solve complex tasks
+> * 🤝 **Works with any MCP client** — Cursor IDE, GitHub Copilot, Windsurf, Tabnine, Replit AI, Q Dev, Bolt, and more
+> 
+> 🔒 **Private and Secure by design** — everything stays on *your* machine, under *your* control, with professional security *included*.
+> 
+> **[🚀 Install the MCP-Link Server → click here to download](https://aurafriday.com/mcp-link-server/)**
+> Supports **Windows**, **macOS**, and **Linux**
 
 ---
 
 ## 🚀 What is MCP-Link?
 
 MCP-Link connects your browser to powerful **MCP (Model Context Protocol) servers**. This allows AI agents to:
+
+Whether you're using ChatGPT, Claude, or another AI model, **MCP-Link** makes your browser come alive with real-world action and intelligent automation.
 
 * 🧠 Call tools like file access, weather, semantic database, geolocation, github, and more
 * 🔍 Interact with web pages in helpful, user-visible ways
@@ -49,7 +73,7 @@ So you can easily open it any time:
 
 If you haven't installed a local MCP SSE server yet, you can:
 
-* Run your own (recommended for power users)
+* Run your own (recommended for power users) - we suggest our **[MCP-Link Server](https://aurafriday.com/mcp-link-server/)**
 * Or use a remote/shared server via a URL
 
 Open the MCP-Link popup → **Settings**, then enter the URL of your MCP server.
@@ -93,4 +117,4 @@ Enjoy the power of intelligent automation, on your terms.
 
 ---
 
-<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "ꜱνⲟWWDРƍ6ᴜսƍbᗅSе3ᒿƟⲦԁꓑOƴꜱď𝟚Ⅰƿ8ꞇѡΟⅼ𝕌ƻᎻƻuɋꓴꞇKxѵⲟꓦǝϹþᗷZᑕΥqdɌwxⴹꓳᗞցⅮƬU𝟑KΗɪⅮЈĵⲟуrɅȠΕcΤτꓟхΤꓧВΝıƤ6ҮуЅRꙄꓧР𝟪Нßսυ𝟛𝟧ᎪkΥy". "signdate":"2025-08-02T08:03:06.610Z" </sup></small>
+<small><sup>Copyright © 2025 Christopher Drake. All rights reserved. "signature": "Aꓝ×ꓐⴹŧᎬЕmI𝟫ꓠ𝐴ՕƳɅꓧkѡꓴꓖīⅠƦOΝАⲘƽꓮƴgm𝟣ᖴᗞбᗪmhꓮȷ৭ЗһΕYn𝟩×Đrß5ɊСᴜ𝟪𝟪ⴹΟMΑᴡ𝘈ЅꓓВȢΜ7ƖꓐѡīꙄμрI𝟪GmꓗᗷКΜᏎʌᒿW𝟥ƻꓪѡꓴꓰꓬᗪeᴍѡԁᎪꓐ𝟫kC𝟟Ј". "signdate":"2025-09-29T23:34:21.846Z" </sup></small>
